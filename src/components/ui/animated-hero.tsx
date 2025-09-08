@@ -139,7 +139,7 @@ function Hero() {
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <BarChart className="w-6 h-6 mt-1 flex-shrink-0" style={{ color: '#fca311' }} />
                 <div className="text-sm">
-                  Evidence led analysis of AI reasoning, perception, and comparisons using proprietary research
+                  Evidence-led analysis of AI reasoning, perception, and comparisons using proprietary research techniques
                 </div>
               </Badge>
               
