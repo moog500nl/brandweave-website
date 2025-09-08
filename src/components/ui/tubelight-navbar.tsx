@@ -61,7 +61,7 @@ export function TubelightNavBar({ items, className }: NavBarProps) {
         ease: "easeInOut"
       }}
       className={cn(
-        "fixed bottom-0 sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 sm:pt-6",
+        "fixed bottom-0 sm:top-0 left-0 right-0 z-50 mb-6 sm:pt-6 flex justify-center",
         className,
       )}
     >
