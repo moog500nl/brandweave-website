@@ -22,16 +22,16 @@ export function FeaturesSectionWithHoverEffects() {
       icon: <Users />,
     },
     {
-      title: "Executive Strategy Session",
-      description: "A facilitated C-suite workshop.",
-      outcome: "Leadership alignment on AI discovery within 30 days.",
-      icon: <Target />,
-    },
-    {
       title: "Narrative Alignment Roadmap",
       description: "Align brand truths with the reasoning AI relies on.",
       outcome: "Step by step actions to increase probability of recommendation.",
       icon: <TrendingUp />,
+    },
+    {
+      title: "Executive Strategy Session",
+      description: "A facilitated C-suite workshop.",
+      outcome: "Leadership alignment on AI discovery within 30 days.",
+      icon: <Target />,
     },
   ];
   return (
