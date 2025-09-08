@@ -60,10 +60,8 @@ function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+              We are independent advisors helping CMOs understand and shape how AI perceives, compares and recommend
+              their brands.
             </p>
           </div>
           <div className="flex flex-row gap-3">
