@@ -62,6 +62,13 @@ function Hero() {
               their brands.
             </p>
           </div>
+          <div className="flex justify-center mt-8 mb-8">
+            <img 
+              src="/lovable-uploads/de84c439-ef2d-4571-994b-77af3031aaba.png" 
+              alt="Brandweave Logo" 
+              className="h-32 md:h-40"
+            />
+          </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
               Independent
@@ -72,13 +79,6 @@ function Hero() {
             <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
               Strategic
             </Badge>
-          </div>
-          <div className="flex justify-center mt-8">
-            <img 
-              src="/lovable-uploads/de84c439-ef2d-4571-994b-77af3031aaba.png" 
-              alt="Brandweave Logo" 
-              className="h-32 md:h-40"
-            />
           </div>
           <div className="flex flex-row gap-3 mt-8">
             <Button size="lg" className="gap-4">
