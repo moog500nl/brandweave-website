@@ -88,7 +88,7 @@ function Hero() {
           <div className="mt-8 max-w-4xl mx-auto">
             <blockquote className="text-center">
               <p className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
-                "37 percent of consumers already use AI to assist with shopping, and 53 percent use it to research products."
+                "37 percent of consumers already use AI to assist with shopping, and 53 percent of those use it to research products." -Adyen 2025 Retail Report
               </p>
             </blockquote>
           </div>
