@@ -74,7 +74,7 @@ function Hero() {
           </div>
           <div className="flex flex-row gap-3">
             <Button size="lg" className="gap-4">
-              Sign up here <MoveRight className="w-4 h-4" />
+              Request a Diagnostic <MoveRight className="w-4 h-4" />
             </Button>
           </div>
         </div>
