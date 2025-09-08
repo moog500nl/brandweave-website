@@ -84,6 +84,13 @@ function Hero() {
               </p>
             </blockquote>
           </div>
+          <div className="mt-8 flex justify-center">
+            <img 
+              src="/lovable-uploads/2c23a529-dea1-4545-b023-fca22c6908aa.png" 
+              alt="Google" 
+              className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+            />
+          </div>
         </div>
       </div>
     </div>
