@@ -8,7 +8,7 @@ import { FeaturesSectionWithHoverEffects } from "@/components/ui/feature-section
 function Hero() {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["recommend", "choose", "pick", "suggest", "select"],
+    () => ["recommend", "choose", "reject", "suggest", "ignore"],
     []
   );
 
