@@ -84,10 +84,15 @@ function Hero() {
               </p>
             </blockquote>
           </div>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex justify-center items-center gap-8">
             <img 
               src="/lovable-uploads/2c23a529-dea1-4545-b023-fca22c6908aa.png" 
               alt="Google" 
+              className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+            />
+            <img 
+              src="/lovable-uploads/98bc0703-c6b1-4744-8096-c10f2d75d42b.png" 
+              alt="Perplexity" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
           </div>
