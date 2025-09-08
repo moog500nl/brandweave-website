@@ -18,50 +18,21 @@ interface NavBarProps {
 export function TubelightNavBar({ items, className }: NavBarProps) {
   const [activeTab, setActiveTab] = useState(items[0].name)
   const [isMobile, setIsMobile] = useState(false)
-  const [isVisible, setIsVisible] = useState(true)
-  const [lastScrollY, setLastScrollY] = useState(0)
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768)
     }
 
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      
-      if (currentScrollY < 10) {
-        setIsVisible(true)
-      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsVisible(false)
-      } else if (currentScrollY < lastScrollY) {
-        setIsVisible(true)
-      }
-      
-      setLastScrollY(currentScrollY)
-    }
-
     handleResize()
     window.addEventListener("resize", handleResize)
-    window.addEventListener("scroll", handleScroll, { passive: true })
-    
-    return () => {
-      window.removeEventListener("resize", handleResize)
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [lastScrollY])
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
 
   return (
-    <motion.div
-      animate={{
-        y: isVisible ? 0 : -100,
-        opacity: isVisible ? 1 : 0
-      }}
-      transition={{
-        duration: 0.3,
-        ease: "easeInOut"
-      }}
+    <div
       className={cn(
-        "fixed bottom-0 sm:top-0 left-0 right-0 z-50 mb-6 sm:pt-6 flex justify-center",
+        "fixed bottom-0 sm:top-0 left-1/2 -translate-x-1/2 z-50 mb-6 sm:pt-6",
         className,
       )}
     >
@@ -107,6 +78,6 @@ export function TubelightNavBar({ items, className }: NavBarProps) {
           )
         })}
       </div>
-    </motion.div>
+    </div>
   )
 }
