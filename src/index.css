@@ -109,15 +109,5 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Roboto', sans-serif;
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px) translateX(-50%);
-  }
-  50% {
-    transform: translateY(-10px) translateX(-50%);
   }
 }
