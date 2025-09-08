@@ -73,6 +73,13 @@ function Hero() {
               Strategic
             </Badge>
           </div>
+          <div className="flex justify-center mt-8">
+            <img 
+              src="/lovable-uploads/de84c439-ef2d-4571-994b-77af3031aaba.png" 
+              alt="Brandweave Logo" 
+              className="h-16 md:h-20"
+            />
+          </div>
           <div className="flex flex-row gap-3 mt-8">
             <Button size="lg" className="gap-4">
               Request a Diagnostic <MoveRight className="w-4 h-4" />
