@@ -58,6 +58,7 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         "spektr-cyan": "hsl(var(--spektr-cyan))",
+        "rotating-text": "hsl(var(--rotating-text))",
       },
       borderRadius: {
         lg: "var(--radius)",
