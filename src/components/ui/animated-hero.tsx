@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { MoveRight, PhoneCall, Shield, BarChart, Users, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { FeaturesSectionWithHoverEffects } from "@/components/ui/feature-section-with-hover-effects";
 
 function Hero() {
   const [titleNumber, setTitleNumber] = useState(0);
@@ -151,57 +152,11 @@ function Hero() {
             </div>
           </div>
 
-          <div className="mt-32 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-16">
+          <div className="mt-32 max-w-7xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Choose a focused module or run the full program.
             </h2>
-            
-            <div className="grid grid-cols-1 gap-6">
-              <div className="relative border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="absolute left-0 top-6 w-1 h-12 bg-[#fca311] rounded-r-md animate-pulse"></div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-semibold mb-2">AI Judgement Briefing</h3>
-                  <p className="text-muted-foreground mb-3">Forensic analysis of how major models perceive your brand within the category.</p>
-                  <p className="text-sm font-medium">Outcome: Clear view of position, with quantified gaps versus leaders.</p>
-                </div>
-              </div>
-
-              <div className="relative border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="absolute left-0 top-6 w-1 h-12 bg-[#fca311] rounded-r-md animate-pulse" style={{ animationDelay: '0.2s' }}></div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-semibold mb-2">Brand Duel Analysis</h3>
-                  <p className="text-muted-foreground mb-3">Head to head comparisons against priority competitors.</p>
-                  <p className="text-sm font-medium">Outcome: Evidence of where and why rivals are favoured, including attributes and percent likelihoods.</p>
-                </div>
-              </div>
-
-              <div className="relative border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="absolute left-0 top-6 w-1 h-12 bg-[#fca311] rounded-r-md animate-pulse" style={{ animationDelay: '0.4s' }}></div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-semibold mb-2">Audience Resonance Testing</h3>
-                  <p className="text-muted-foreground mb-3">Simulations across all major buyer-personas.</p>
-                  <p className="text-sm font-medium">Outcome: Where you win and where you risk losing, by customer segment.</p>
-                </div>
-              </div>
-
-              <div className="relative border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="absolute left-0 top-6 w-1 h-12 bg-[#fca311] rounded-r-md animate-pulse" style={{ animationDelay: '0.6s' }}></div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-semibold mb-2">Narrative Alignment Roadmap</h3>
-                  <p className="text-muted-foreground mb-3">Align brand truths with the reasoning AI relies on.</p>
-                  <p className="text-sm font-medium">Outcome: Step by step actions to increase probability of recommendation.</p>
-                </div>
-              </div>
-
-              <div className="relative border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="absolute left-0 top-6 w-1 h-12 bg-[#fca311] rounded-r-md animate-pulse" style={{ animationDelay: '0.8s' }}></div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-semibold mb-2">Executive Strategy Session</h3>
-                  <p className="text-muted-foreground mb-3">A facilitated C-suite workshop.</p>
-                  <p className="text-sm font-medium">Outcome: Leadership alignment on AI discovery within 30 days.</p>
-                </div>
-              </div>
-            </div>
+            <FeaturesSectionWithHoverEffects />
           </div>
         </div>
       </div>
