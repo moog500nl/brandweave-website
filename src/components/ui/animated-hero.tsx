@@ -156,15 +156,11 @@ function Hero() {
             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Choose a focused module or run the full program.
             </h2>
-            <div className="flex flex-col lg:flex-row items-start gap-8">
-              <div className="flex-1">
-                <FeaturesSectionWithHoverEffects />
-              </div>
-              <div className="lg:w-64 flex justify-center lg:justify-start lg:mt-10">
-                <Button size="lg" className="gap-4 whitespace-nowrap">
-                  Request a Diagnostic <MoveRight className="w-4 h-4" />
-                </Button>
-              </div>
+            <FeaturesSectionWithHoverEffects />
+            <div className="flex justify-center mt-12">
+              <Button size="lg" className="gap-4">
+                Request a Diagnostic <MoveRight className="w-4 h-4" />
+              </Button>
             </div>
           </div>
         </div>
