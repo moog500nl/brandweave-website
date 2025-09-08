@@ -58,7 +58,7 @@ function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              We are independent advisors helping CMOs understand and shape how AI perceives, compares and recommend
+              We are independent advisors helping CMOs understand and shape how AI perceives, compares and recommends
               their brands.
             </p>
           </div>
@@ -88,7 +88,7 @@ function Hero() {
           <div className="mt-8 max-w-4xl mx-auto">
             <blockquote className="text-center">
               <p className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
-                "37 percent of consumers already use AI to assist with shopping, and 53 percent use it to research products." -Adyen 2025 Research Report
+                "37 percent of consumers already use AI to assist with shopping, and 53 percent use it to research products."
               </p>
             </blockquote>
           </div>
