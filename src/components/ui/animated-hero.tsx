@@ -3,11 +3,6 @@ import { motion } from "framer-motion";
 import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import googleLogo from "@/assets/google-logo.png";
-import openaiLogo from "@/assets/openai-logo.png";
-import anthropicLogo from "@/assets/anthropic-logo.png";
-import perplexityLogo from "@/assets/perplexity-logo.png";
-import grokLogo from "@/assets/grok-logo.png";
 
 function Hero() {
   const [titleNumber, setTitleNumber] = useState(0);
@@ -91,11 +86,11 @@ function Hero() {
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60">
-              <img src={googleLogo} alt="Google" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-              <img src={openaiLogo} alt="OpenAI" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-              <img src={anthropicLogo} alt="Anthropic" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-              <img src={perplexityLogo} alt="Perplexity" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-              <img src={grokLogo} alt="Grok" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/lovable-uploads/7f8846cf-e3c1-4d14-a278-a56ac63f613f.png" alt="Google" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/lovable-uploads/61e4d345-bdb0-44fb-a6f2-314794243e3a.png" alt="OpenAI" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/lovable-uploads/a6e2fad6-c341-45f5-91be-9ba5cf62ec20.png" alt="Anthropic" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/lovable-uploads/240c432e-9448-4d09-a1ca-4e62f1ccdbe5.png" alt="Perplexity" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/lovable-uploads/606d37f3-7654-4f5b-9588-6f5eae3972c9.png" alt="Grok" className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
           </div>
         </div>
