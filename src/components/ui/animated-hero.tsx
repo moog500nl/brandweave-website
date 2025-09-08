@@ -98,7 +98,7 @@ function Hero() {
             <img 
               src="/lovable-uploads/575ac639-bfc3-44b1-9446-9e02c7dca054.png" 
               alt="Anthropic" 
-              className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              className="h-10 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
             <img 
               src="/lovable-uploads/98bc0703-c6b1-4744-8096-c10f2d75d42b.png" 
