@@ -73,12 +73,12 @@ function Hero() {
               Strategic
             </Badge>
           </div>
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row gap-3 mt-8">
             <Button size="lg" className="gap-4">
               Request a Diagnostic <MoveRight className="w-4 h-4" />
             </Button>
           </div>
-          <div className="mt-16 max-w-4xl mx-auto">
+          <div className="mt-8 max-w-4xl mx-auto">
             <blockquote className="text-center">
               <p className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
                 "37 percent of consumers already use AI to assist with shopping, and 53 percent use it to research products."
