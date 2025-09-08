@@ -66,7 +66,7 @@ function Hero() {
             <img 
               src="/lovable-uploads/87d713f5-605b-4365-94c1-3282fed010ec.png" 
               alt="Brandweave Logo" 
-              className="h-24 md:h-32 lg:h-36"
+              className="h-40 md:h-48 lg:h-56"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
