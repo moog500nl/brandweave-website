@@ -77,6 +77,13 @@ function Hero() {
               Request a Diagnostic <MoveRight className="w-4 h-4" />
             </Button>
           </div>
+          <div className="mt-16 max-w-4xl mx-auto">
+            <blockquote className="text-center">
+              <p className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
+                "37 percent already use AI to assist with shopping, and 53 percent use it to research products."
+              </p>
+            </blockquote>
+          </div>
         </div>
       </div>
     </div>
