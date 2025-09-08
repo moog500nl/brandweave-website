@@ -61,7 +61,7 @@ function Hero() {
               their brands.
             </p>
           </div>
-          <div className="flex flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
               Independent
             </Badge>
