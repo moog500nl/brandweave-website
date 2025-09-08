@@ -123,33 +123,29 @@ function Hero() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <Shield className="w-6 h-6 mt-1 flex-shrink-0" />
-                <div>
-                  <div className="font-semibold mb-2">Independent insight</div>
-                  <div className="text-sm opacity-80">Not tied to SEO, media, or platform agendas</div>
+                <div className="text-sm">
+                  Independent insight, not tied to SEO, media, or platform agendas
                 </div>
               </Badge>
               
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <BarChart className="w-6 h-6 mt-1 flex-shrink-0" />
-                <div>
-                  <div className="font-semibold mb-2">Evidence led analysis</div>
-                  <div className="text-sm opacity-80">Of AI reasoning, perception, and comparisons using proprietary research</div>
+                <div className="text-sm">
+                  Evidence led analysis of AI reasoning, perception, and comparisons using proprietary research
                 </div>
               </Badge>
               
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <Users className="w-6 h-6 mt-1 flex-shrink-0" />
-                <div>
-                  <div className="font-semibold mb-2">Customer behaviour focus</div>
-                  <div className="text-sm opacity-80">Across journeys and preference formation</div>
+                <div className="text-sm">
+                  Customer behaviour focus across journeys and preference formation
                 </div>
               </Badge>
               
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <TrendingUp className="w-6 h-6 mt-1 flex-shrink-0" />
-                <div>
-                  <div className="font-semibold mb-2">Actionable strategy</div>
-                  <div className="text-sm opacity-80">With board ready recommendations</div>
+                <div className="text-sm">
+                  Actionable strategy with board ready recommendations
                 </div>
               </Badge>
             </div>
