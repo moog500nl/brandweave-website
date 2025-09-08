@@ -26,7 +26,7 @@ function Hero() {
   return (
     <div className="w-full">
       <div className="container mx-auto">
-        <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
+        <div className="flex gap-8 py-16 lg:py-32 items-center justify-center flex-col">
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
               <span className="text-muted-foreground">Will AI</span>
@@ -113,7 +113,7 @@ function Hero() {
             />
           </div>
           
-          <div className="mt-32 max-w-4xl mx-auto">
+          <div className="mt-20 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Independent insight for AI brand recommendation
             </h2>
@@ -152,7 +152,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="mt-32 max-w-7xl mx-auto">
+          <div className="mt-20 max-w-7xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Choose a focused module or run the full program.
             </h2>
@@ -164,7 +164,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="mt-32 max-w-4xl mx-auto text-center px-4">
+          <div className="mt-20 max-w-4xl mx-auto text-center px-4">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8">
               Future-proof your Marketing. Sign up to our free weekly newsletter, The Brand New Model.
             </h2>
