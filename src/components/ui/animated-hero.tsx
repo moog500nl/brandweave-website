@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { MoveRight, PhoneCall } from "lucide-react";
+import { MoveRight, PhoneCall, Shield, BarChart, Users, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -110,6 +110,49 @@ function Hero() {
               alt="Grok" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
+          </div>
+          
+          <div className="mt-32 max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
+              Independent insight for AI brand recommendation
+            </h2>
+            <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground text-center mb-16">
+              Brandweave gives CMOs an evidence led view of how AI systems perceive, compare, and recommend brands. We reveal blind spots, show where competitors are winning preference, and unpack the reasoning behind AI decisions, then translate findings into board level priorities.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
+                <Shield className="w-6 h-6 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-2">Independent insight</div>
+                  <div className="text-sm opacity-80">Not tied to SEO, media, or platform agendas</div>
+                </div>
+              </Badge>
+              
+              <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
+                <BarChart className="w-6 h-6 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-2">Evidence led analysis</div>
+                  <div className="text-sm opacity-80">Of AI reasoning, perception, and comparisons using proprietary research</div>
+                </div>
+              </Badge>
+              
+              <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
+                <Users className="w-6 h-6 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-2">Customer behaviour focus</div>
+                  <div className="text-sm opacity-80">Across journeys and preference formation</div>
+                </div>
+              </Badge>
+              
+              <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
+                <TrendingUp className="w-6 h-6 mt-1 flex-shrink-0" />
+                <div>
+                  <div className="font-semibold mb-2">Actionable strategy</div>
+                  <div className="text-sm opacity-80">With board ready recommendations</div>
+                </div>
+              </Badge>
+            </div>
           </div>
         </div>
       </div>
