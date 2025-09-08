@@ -163,6 +163,26 @@ function Hero() {
               </Button>
             </div>
           </div>
+
+          <div className="mt-32 max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-8">
+              Future-proof your Marketing. Sign up to our free weekly newsletter, The Brand New Model.
+            </h2>
+            <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground mb-12">
+              We decode how AI is changing consumer choice and use that same technology to find you the single best product in a new category every week.
+            </p>
+            <div className="flex justify-center">
+              <iframe 
+                src="https://brandweave.substack.com/embed" 
+                width="480" 
+                height="150" 
+                style={{border: '1px solid #EEE', background: 'white'}} 
+                frameBorder="0" 
+                scrolling="no"
+                className="rounded-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
