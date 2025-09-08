@@ -62,7 +62,7 @@ function Hero() {
               their brands.
             </p>
           </div>
-          <div className="flex justify-center mt-8 mb-2">
+          <div className="flex justify-center mt-8 mb-0">
             <img 
               src="/lovable-uploads/87d713f5-605b-4365-94c1-3282fed010ec.png" 
               alt="Brandweave Logo" 
