@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { MoveRight, PhoneCall, Shield, BarChart, Users, TrendingUp } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import { Badge } from "@/components/ui/badge";
 import { FeaturesSectionWithHoverEffects } from "@/components/ui/feature-section-with-hover-effects";
 
@@ -74,9 +74,9 @@ function Hero() {
             </Badge>
           </div>
           <div className="flex flex-row gap-3">
-            <Button size="lg" className="gap-4">
+            <ShinyButton className="gap-4 px-8 py-3 text-base">
               Request a Diagnostic <MoveRight className="w-4 h-4" />
-            </Button>
+            </ShinyButton>
           </div>
           <div className="mt-16 max-w-4xl mx-auto">
             <blockquote className="text-center">
@@ -158,9 +158,9 @@ function Hero() {
             </h2>
             <FeaturesSectionWithHoverEffects />
             <div className="flex justify-center mt-12">
-              <Button size="lg" className="gap-4">
+              <ShinyButton className="gap-4 px-8 py-3 text-base">
                 Request a Diagnostic <MoveRight className="w-4 h-4" />
-              </Button>
+              </ShinyButton>
             </div>
           </div>
 
