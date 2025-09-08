@@ -62,6 +62,13 @@ function Hero() {
               their brands.
             </p>
           </div>
+          <div className="flex justify-center mt-8 mb-8">
+            <img 
+              src="/lovable-uploads/87d713f5-605b-4365-94c1-3282fed010ec.png" 
+              alt="Brandweave Logo" 
+              className="h-24 md:h-32 lg:h-36"
+            />
+          </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
               Independent
