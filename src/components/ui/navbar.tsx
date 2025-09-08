@@ -23,7 +23,7 @@ export function Navbar() {
               <img
                 src="/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
                 alt="Logo"
-                className="h-8 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
           </div>
