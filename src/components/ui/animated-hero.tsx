@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 function Hero() {
   const [titleNumber, setTitleNumber] = useState(0);
@@ -59,6 +60,17 @@ function Hero() {
               We are independent advisors helping CMOs understand and shape how AI perceives, compares and recommend
               their brands.
             </p>
+          </div>
+          <div className="flex flex-row gap-3 justify-center">
+            <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
+              Independent
+            </Badge>
+            <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
+              Evidence-led
+            </Badge>
+            <Badge variant="outline" className="h-11 px-8 text-sm font-medium">
+              Strategic
+            </Badge>
           </div>
           <div className="flex flex-row gap-3">
             <Button size="lg" className="gap-4">
