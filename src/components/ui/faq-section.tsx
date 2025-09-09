@@ -26,7 +26,7 @@ const FAQSection = () => {
           Frequently Asked Questions
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground">
-          Common questions about our AI brand evaluation services
+          Common questions about our services
         </p>
       </div>
       
