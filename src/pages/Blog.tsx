@@ -41,7 +41,7 @@ export default function Blog() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Brandweave Blog</h1>
             <p className="text-xl md:text-2xl text-brand-secondary/90 max-w-3xl mx-auto">
-              Insights, strategies, and trends in digital marketing and technology.
+              Insights into how AI is changing consumer behaviour.
             </p>
           </div>
         </div>
