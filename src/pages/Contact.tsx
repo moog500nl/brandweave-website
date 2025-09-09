@@ -24,7 +24,7 @@ const Contact = () => {
             <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
             <div className="bg-card rounded-lg shadow-lg overflow-hidden">
               <iframe 
-                data-tally-src="https://tally.so/embed/3xogVJ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+                data-tally-src="https://tally.so/embed/3xogVJ?alignLeft=1&transparentBackground=1&dynamicHeight=1" 
                 width="100%" 
                 height="600" 
                 frameBorder="0" 
