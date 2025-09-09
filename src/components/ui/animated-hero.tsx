@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { MoveRight, PhoneCall, Shield, BarChart, Users, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { FeaturesSectionWithHoverEffects } from "@/components/ui/feature-section-with-hover-effects";
@@ -81,8 +82,10 @@ function Hero() {
             </Badge>
           </div>
           <div className="flex flex-row gap-3 mt-8">
-            <Button size="lg" className="gap-4">
-              Request a Diagnostic <MoveRight className="w-4 h-4" />
+            <Button size="lg" className="gap-4" asChild>
+              <Link to="/contact">
+                Request a Diagnostic <MoveRight className="w-4 h-4" />
+              </Link>
             </Button>
           </div>
           <div className="mt-8 max-w-4xl mx-auto">
@@ -165,8 +168,10 @@ function Hero() {
             </h2>
             <FeaturesSectionWithHoverEffects />
             <div className="flex justify-center mt-12">
-              <Button size="lg" className="gap-4">
-                Request a Diagnostic <MoveRight className="w-4 h-4" />
+              <Button size="lg" className="gap-4" asChild>
+                <Link to="/contact">
+                  Request a Diagnostic <MoveRight className="w-4 h-4" />
+                </Link>
               </Button>
             </div>
           </div>
