@@ -8,7 +8,7 @@ const Index = () => {
       <Navbar />
       <div className="pt-16">
         <Hero />
-        <div className="mt-20 pb-20">
+        <div className="mt-10 pb-20">
           <FAQSection />
         </div>
       </div>
