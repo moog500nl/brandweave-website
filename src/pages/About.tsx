@@ -1,5 +1,4 @@
 import { Navbar } from "@/components/ui/navbar";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
   return (
@@ -36,21 +35,19 @@ const About = () => {
                 <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-12">
+              <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                 {/* Marenco */}
                 <div className="text-center">
                   <div className="mb-6 flex justify-center">
-                    <Avatar className="w-48 h-48 md:w-56 md:h-56">
-                      <AvatarImage 
+                    <div className="w-64 h-80 bg-card rounded-lg overflow-hidden shadow-lg">
+                      <img 
                         src="/lovable-uploads/da4b09c1-1b6b-48ef-b1ac-bdecc5a5802b.png" 
                         alt="Marenco - Co-Founder"
-                        className="object-cover"
+                        className="w-full h-full object-cover"
                       />
-                      <AvatarFallback className="text-2xl">M</AvatarFallback>
-                    </Avatar>
+                    </div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">Marenco</h3>
-                  <p className="text-primary font-medium mb-4">Co-Founder</p>
                   <p className="text-muted-foreground leading-relaxed">
                     A visionary leader with extensive experience in business strategy and innovation. 
                     Marenco brings a wealth of knowledge in driving organizational growth and 
@@ -61,17 +58,15 @@ const About = () => {
                 {/* Andy */}
                 <div className="text-center">
                   <div className="mb-6 flex justify-center">
-                    <Avatar className="w-48 h-48 md:w-56 md:h-56">
-                      <AvatarImage 
+                    <div className="w-64 h-80 bg-card rounded-lg overflow-hidden shadow-lg">
+                      <img 
                         src="/lovable-uploads/3ef6bda3-c1f9-4c0b-ae5a-eab14e63dc31.png" 
                         alt="Andy - Co-Founder"
-                        className="object-cover"
+                        className="w-full h-full object-cover"
                       />
-                      <AvatarFallback className="text-2xl">A</AvatarFallback>
-                    </Avatar>
+                    </div>
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">Andy</h3>
-                  <p className="text-primary font-medium mb-4">Co-Founder</p>
                   <p className="text-muted-foreground leading-relaxed">
                     A technology expert and innovative problem-solver with a passion for creating 
                     solutions that transform businesses. Andy's technical expertise and strategic 
