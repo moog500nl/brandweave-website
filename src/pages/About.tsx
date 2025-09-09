@@ -30,7 +30,7 @@ const About = () => {
                 </p>
                 
                 <p>
-                  But the more CMOs and brand leaders we spoke to, it wasn't clear to them what these models were telling consumers about their brands and why and what to do about it.
+                  But the more CMOs and brand leaders we spoke to, it wasn't clear to them what these models were telling consumers about their brands, why and what to do about it.
                 </p>
                 
                 <p>
