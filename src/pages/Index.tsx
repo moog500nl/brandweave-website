@@ -1,5 +1,6 @@
 import { Hero } from "@/components/ui/animated-hero";
 import { Navbar } from "@/components/ui/navbar";
+import { FAQSection } from "@/components/ui/faq-section";
 
 const Index = () => {
   return (
@@ -7,6 +8,9 @@ const Index = () => {
       <Navbar />
       <div className="pt-16">
         <Hero />
+        <div className="py-20">
+          <FAQSection />
+        </div>
       </div>
     </div>
   );
