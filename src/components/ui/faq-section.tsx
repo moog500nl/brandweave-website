@@ -15,7 +15,7 @@ const FAQSection = () => {
     {
       id: "item-2", 
       question: "How are you different from other solutions?",
-      answer: "Other vendors operate in the Generative Engine Optimisation space. They offer solutions which estimate visibility in AI answers but ignore things like how an AI model reasons about a brand, and audience simulations."
+      answer: "Other vendors operate in the 'Generative Engine Optimisation' space, aka GEO. They offer solutions which estimate visibility in AI answers but ignore things like how an AI model reasons about a brand, and audience simulations. We are also not a generalist SEO service because we are specialists in how AI reasons about brands and the strategic implicaitons for your business"
     }
   ];
 
