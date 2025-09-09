@@ -57,6 +57,8 @@ All colors MUST be HSL.
     /* Custom colors for animated hero */
     --spektr-cyan: 180 100% 85%;
     --rotating-text: 39 100% 57%;
+    --brand-primary: 214 49% 16%;
+    --brand-accent: 41 97% 54%;
   }
 
   .dark {
@@ -99,6 +101,8 @@ All colors MUST be HSL.
     /* Custom colors for animated hero */
     --spektr-cyan: 180 100% 75%;
     --rotating-text: 39 100% 57%;
+    --brand-primary: 214 49% 16%;
+    --brand-accent: 41 97% 54%;
   }
 }
 

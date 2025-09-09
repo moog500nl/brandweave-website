@@ -62,6 +62,8 @@ export default {
         },
         "spektr-cyan": "hsl(var(--spektr-cyan))",
         "rotating-text": "hsl(var(--rotating-text))",
+        "brand-primary": "hsl(var(--brand-primary))",
+        "brand-accent": "hsl(var(--brand-accent))",
       },
       borderRadius: {
         lg: "var(--radius)",
