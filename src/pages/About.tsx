@@ -42,7 +42,7 @@ const About = () => {
                   <div className="mb-6 flex justify-center">
                     <Avatar className="w-48 h-48 md:w-56 md:h-56">
                       <AvatarImage 
-                        src="/lovable-uploads/3ef6bda3-c1f9-4c0b-ae5a-eab14e63dc31.png" 
+                        src="/lovable-uploads/da4b09c1-1b6b-48ef-b1ac-bdecc5a5802b.png" 
                         alt="Marenco - Co-Founder"
                         className="object-cover"
                       />
@@ -63,7 +63,7 @@ const About = () => {
                   <div className="mb-6 flex justify-center">
                     <Avatar className="w-48 h-48 md:w-56 md:h-56">
                       <AvatarImage 
-                        src="/lovable-uploads/da4b09c1-1b6b-48ef-b1ac-bdecc5a5802b.png" 
+                        src="/lovable-uploads/3ef6bda3-c1f9-4c0b-ae5a-eab14e63dc31.png" 
                         alt="Andy - Co-Founder"
                         className="object-cover"
                       />
