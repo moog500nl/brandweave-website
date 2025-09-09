@@ -61,7 +61,7 @@ const About = () => {
                 {/* Andy */}
                 <div className="text-center">
                   <div className="mb-6 flex justify-center">
-                    <Avatar className="w-48 h-48 md:w-56 md:h-56">
+                    <Avatar className="w-40 h-40 md:w-44 md:h-44">
                       <AvatarImage 
                         src="/lovable-uploads/3ef6bda3-c1f9-4c0b-ae5a-eab14e63dc31.png" 
                         alt="Andy - Co-Founder"
