@@ -12,55 +12,222 @@ const blogPosts = {
     date: "2025-09-09", 
     image: "/lovable-uploads/529dca25-ad0d-40b8-987f-e0e8b09c56bd.png",
     content: `
-      <h2>The AI Verdict: 5 Models Research VPNs</h2>
-      <p>Welcome to the AI Verdict newsletter analysis. How does an AI model decide which product is 'best'? This week, we give consumers a look under the hood by analyzing how 5 different AI models research and recommend VPN services.</p>
+      <p>Welcome to the AI Verdict newsletter, by <a href="https://www.brandweave.ai/" style="color: hsl(var(--brand-primary));">Brandweave</a>.</p>
       
-      <blockquote style="border-left: 4px solid hsl(var(--brand-accent)); padding-left: 1rem; margin: 2rem 0; font-style: italic; color: hsl(var(--brand-primary));">
-        "The question isn't whether AI will change product research, but how quickly consumers can adapt to harness its transformative power while maintaining critical thinking."
-      </blockquote>
+      <p>How does an AI model decide which product is 'best'? Every week, we give consumers a look under the hood and provide brands with the intelligence to connect with the new algorithmic shopper.</p>
       
-      <h2>Why VPNs Matter in 2025</h2>
-      <p>VPNs (virtual private networks) offer a powerful combination of online privacy and freedom, encrypting your internet connection to protect your data from hackers and surveillance while enabling you to bypass geo-restrictions to access global content. It's a highly competitive market, estimated to be worth $50 billion by 2025 and growing at an annual rate of 17%.</p>
+      <h2>In this edition:</h2>
+      <ol>
+        <li>Perplexity's Comet browser gives AI agents access to open tabs.</li>
+        <li>Gemini 2.5 Pro's Deep Search arrive behind a paywall, for now.</li>
+        <li>83% of respondents say AI beats Google for search</li>
+        <li><strong>DEEP DIVE:</strong> Can 5 AI deep research models agree on the <strong>best VPN</strong>? Get their recommendations below.</li>
+      </ol>
       
-      <h2>The Research: 5 AI Models, 1 Question</h2>
-      <p>We asked five leading AI models the same question: "What is the best VPN?" Here's how they approached the research:</p>
+      <h2>Perplexity's Comet browser gives AI agents access to open tabs</h2>
+      <p><strong>Quick hit:</strong> <a href="https://www.perplexity.ai/hub/blog/introducing-comet" style="color: hsl(var(--brand-primary));">Perplexity has launched</a> <em>Comet</em>, the first AI-native web browser that folds its answer engine and an agentic "Assistant sidecar" into a Chromium shell, aiming to siphon search traffic away from Google.</p>
       
-      <h3>Different Approaches, Different Personalities</h3>
-      <p><strong>Gemini</strong> channels IEEE Security & Privacy, opening with a five-paragraph primer on tunnel encryption and spending three pages on methodology before naming a vendor. Academic and thorough.</p>
-      
-      <p><strong>ChatGPT</strong> reads like a CNET buying guide - conversational, studded with parenthetical references, and the only report dedicating a whole page to customer support quality.</p>
-      
-      <p><strong>Claude</strong> delivers terse, boardroom-ready analysis with headings, one-sentence bullets, and foregrounds auditing firms like PwC and Deloitte.</p>
-      
-      <p><strong>Grok</strong> adds color commentary ("Nord has the muscle, but the renewal cliff is real") and uniquely surfaces a pending U.S. class-action against NordVPN over auto-renewal practices.</p>
-      
-      <p><strong>Perplexity</strong> goes full dashboard mode, presenting bar charts comparing speed-loss percentages across five VPNs with body text serving as graphic captions.</p>
-      
-      <h2>What AI Models Care About Most</h2>
-      <p>Across all five reports, speed and security tie as the top priorities. The models consistently evaluated six key factors:</p>
-      
+      <p><strong>The details:</strong></p>
       <ul>
-        <li><strong>Speed/Performance:</strong> Generally quoting CNET's 2025 lab tests showing ~3% download-speed loss</li>
-        <li><strong>Security & Encryption:</strong> AES-256, WireGuard protocols, RAM-only servers</li>
-        <li><strong>Privacy Posture:</strong> Jurisdiction outside surveillance alliances, verified no-logs policies</li>
-        <li><strong>Features:</strong> Double-VPN, Onion-over-VPN, Threat Protection capabilities</li>
-        <li><strong>Streaming Reliability:</strong> 100% success across Netflix, Disney+, BBC iPlayer</li>
-        <li><strong>Price/Value:</strong> Two-year plans around $3/month with promotional add-ons</li>
+        <li>Built on Chromium with Perplexity set as the default search layer, targeting Google's dominance.</li>
+        <li>Collapsible <em>Comet Assistant</em> can read any page, draft emails, manage tabs and even execute purchases or conduct service and partner research on command.</li>
+        <li>Early access is limited to $200-per-month <em>Max</em> subscribers, plus an invite-only waitlist; a broader rollout will follow over the summer.</li>
+        <li>Browsing context stays local for greater privacy and could usher in the reality of hyper-personalisation.</li>
+        <li>CEO Aravind Srinivas calls Comet "the first step toward a browser-OS that delivers infinite retention through AI agents."</li>
       </ul>
       
-      <h2>The Unanimous Verdict</h2>
-      <p>All five AI models chose <strong>NordVPN</strong> as the winner. This unanimous agreement demonstrates a powerful marketing success story - NordVPN has effectively saturated the digital landscape with its core messages of speed, security, and privacy.</p>
+      <p><strong>Brandweave take:</strong> If browsers start answering questions and completing tasks for users, paid and organic search journeys will begin <em>before</em> a keyword is ever entered into Google. CMOs and heads of search need to test how their brand appears within agent-driven browser experiences and prepare for a world where default traffic comes from AI-generated summaries or AI agents, rather than blue links. While the system is still pay-to-play, expect free versions to hit the market very soon.</p>
       
-      <h2>Critical Analysis: The Blind Spots</h2>
-      <p>Only Grok surfaced potential concerns like class-action lawsuits regarding auto-renewal practices. This highlights how AI models can miss critical consumer protection issues when focusing primarily on technical specifications.</p>
+      <h2>Gemini 2.5 Pro & Deep Search arrive behind a paywall, for now</h2>
+      <p><strong>Quick hit:</strong> <a href="https://blog.google/products/search/deep-search-business-calling-google-search/" style="color: hsl(var(--brand-primary));">Google has activated the Gemini 2.5 Pro model and a</a> <em>Deep Search</em> research mode inside AI Mode for paying subscribers, creating the first premium tier of Google Search.</p>
       
-      <h2>Implications for Consumers and Brands</h2>
-      <p>As consumers increasingly rely on AI models for product research, brands must understand how these systems think, reason, and evaluate options. The unanimous NordVPN recommendation creates a formidable market perception for competitors to overcome.</p>
+      <p><strong>The details:</strong></p>
+      <ul>
+        <li>Rolling out from 16 July to U.S. AI Pro & AI Ultra subscribers via a new model picker in Search Labs.</li>
+        <li>Gemini 2.5 Pro tackles complex reasoning, math and code queries with higher accuracy.</li>
+        <li><em>Deep Search</em> fires "hundreds of searches" to build multi-step, fully-cited reports after a short wait.</li>
+        <li>Paywall signals a split between free keyword SERPs and premium conversational research tiers.</li>
+        <li>Google also rolled out agent-based business features that book services on users' behalf, foreshadowing task-oriented search.</li>
+      </ul>
       
-      <p>However, opportunities exist for competing brands to center their identity on transparency, ethical business practices, or other differentiators that current AI evaluation frameworks might overlook.</p>
+      <p><strong>Brandweave take:</strong> Search is fragmenting into stratified experiences. Brands must decide whether to invest in content (and possibly ads) that appears inside paid Gemini tiers, and rethink their SEO strategy for citation-based answer engines that some users will access <em>instead</em> of traditional results.</p>
       
-      <h2>The Future of AI-Driven Product Research</h2>
-      <p>This analysis reveals how AI models will shape consumer decisions in the coming years. Brands need to optimize not just for search engines, but for AI reasoning processes that prioritize different attributes and evaluation criteria.</p>
+      <h2>83% of respondents say AI beats Google for search</h2>
+      <p><strong>Quick Hit:</strong> <a href="https://innovatingwithai.com/is-ai-search-replacing-traditional-search/" style="color: hsl(var(--brand-primary));">A fresh survey from</a> <em>Innovating with AI</em> finds that four out of five frequent internet users now prefer AI search tools to Google, underscoring a rapid behavioural shift.</p>
+      
+      <p><strong>The details:</strong></p>
+      <ul>
+        <li>83% rate AI search as more efficient than traditional engines.</li>
+        <li>Ninety-one per cent already use ChatGPT, Grok, or Perplexity for their day-to-day queries.</li>
+        <li>Top benefit cited: cohesive answers that remove the need to click through multiple links.</li>
+        <li>Statcounter data in the report shows Google's global share slipping below 90% for the first time since 2015.</li>
+        <li>Hallucinations remain a concern, with models still producing false information up to 33% of the time, tempering full adoption.</li>
+      </ul>
+      
+      <p><strong>Brandweave take:</strong> Channel mix assumptions built on Google supremacy are cracking. Marketers must broaden attribution models to include AI answer engines and develop trust-building content that offsets hallucination fears while still capturing zero-click audiences.</p>
+      
+      <h2 style="margin-top: 3rem; font-size: 1.5rem; color: hsl(var(--brand-primary));">DEEP DIVE</h2>
+      
+      <h3>Can 5 AI deep research models agree on the best VPN?</h3>
+      
+      <p>This week, we wanted to take a look at VPNs (virtual private networks). We find VPNs interesting because they offer a powerful combination of online privacy and freedom, encrypting your internet connection to protect your data from hackers and surveillance while also enabling you to bypass geo-restrictions to access global content. It's a highly competitive market, estimated to be worth $50 billion by 2025 and growing at an annual rate of 17%. For most people, it's a high-involvement purchase decision, so we wanted to see which VPNs our deep research models would choose when asked, "What is the best VPN?"</p>
+      
+      <h4>The Quick-Take Matrix - "What is the best VPN?"</h4>
+      
+      <div style="overflow-x: auto; margin: 2rem 0;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+          <thead>
+            <tr style="background-color: hsl(var(--brand-accent) / 0.1);">
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">AI Model</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">Word Count</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">Pages</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;"># of cited sources (unique)</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">Tone & Structure</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">What it cares about most</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; font-weight: 600;">Gemini</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">~7,400 words</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">21 pp.</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">18</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Academic white-paper with numbered headings, long-form narrative</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Balanced security × performance with deep methodology</td>
+            </tr>
+            <tr style="background-color: hsl(var(--muted) / 0.3);">
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; font-weight: 600;">ChatGPT</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">~4,600 words</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">13 pp.</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">19</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Guide-style review w/ comparison table & bold call-outs</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Holistic speed, security & usability for most people</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; font-weight: 600;">Claude</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">~1,800 words</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">4 pp.</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">14</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Executive brief; bullet-heavy, persuasive MBA deck</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Security pedigree and audit trail</td>
+            </tr>
+            <tr style="background-color: hsl(var(--muted) / 0.3);">
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; font-weight: 600;">Grok</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">~2,300 words</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">5 pp.</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">13</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Conversational newsletter with price-deal call-outs</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Value for money & latest promos</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; font-weight: 600;">Perplexity</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">~1,200 words</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">4 pp.</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">14</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">SEO-style blog w/ infographic & skimmable sub-heads</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Raw speed data & comparative charts</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h4><em>How the AI models wrote differently.</em></h4>
+      <ul>
+        <li>Gemini channels IEEE Security & Privacy. It opens with a five-paragraph primer on tunnel encryption, defines forward secrecy and obfuscation, and then spends three pages on methodology before naming a vendor. That academic pacing is unique among the five.</li>
+        <li>ChatGPT reads like a CNET buying guide. It is conversational, studded with parenthetical references, and repeats key stats ("3% speed loss!") three times. It's the only report that dedicates a whole page to customer support quality.</li>
+        <li>Claude is terse and kind of boardroom-ready. It has headings, one-sentence bullets, and a concluding "Verdict slide." It foregrounds auditing firms (PwC, Deloitte) and lists five audit dates (!)</li>
+        <li>Grok adds colour commentary ("Nord has the muscle, but the renewal cliff is real"), which we thought was quite funny, and indicative of how Grok is being positioned. It is also alone in surfacing a pending U.S. class-action against NordVPN over auto-renewal practices(!)</li>
+        <li>Perplexity goes into complete dashboard mode. Page 1 presents a bar chart comparing speed-loss percentages across five VPNs; therefore, the body text serves as a caption for the graphic.</li>
+      </ul>
+      
+      <h4>Attribute-weight Heat-Map</h4>
+      
+      <div style="overflow-x: auto; margin: 2rem 0;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+          <thead>
+            <tr style="background-color: hsl(var(--brand-accent) / 0.1);">
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: left; font-weight: 600;">Decision factor (adjective clusters)</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">Gemini</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">ChatGPT</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">Claude</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">Grok</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">Perplexity</th>
+              <th style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; font-weight: 600;">Avg.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Fast / Blisteringly-fast (speed)</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.8); color: white; font-weight: 600;">10</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">9</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.6); color: white; font-weight: 600;">8</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.5); font-weight: 600;">7</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.8); color: white; font-weight: 600;">10</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">8.8</td>
+            </tr>
+            <tr style="background-color: hsl(var(--muted) / 0.3);">
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Secure / Robust / AES-256</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">9</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">9</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.8); color: white; font-weight: 600;">10</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.6); color: white; font-weight: 600;">8</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.6); color: white; font-weight: 600;">8</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">8.8</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Strict no-logs / Private</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.7); color: white; font-weight: 600;">9</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.6); color: white; font-weight: 600;">8</td>
+              <td style="border: 1px solid hsl(var(--brand-accent) / 0.7); color: white; padding: 12px; text-align: center; font-weight: 600;">9</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.5); font-weight: 600;">7</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.5); font-weight: 600;">7</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.6); color: white; font-weight: 600;">8.0</td>
+            </tr>
+            <tr style="background-color: hsl(var(--muted) / 0.3);">
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px;">Affordable / Value / Cheap</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.4); font-weight: 600;">6</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.5); font-weight: 600;">7</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.3); font-weight: 600;">5</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.8); color: white; font-weight: 600;">10</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.4); font-weight: 600;">6</td>
+              <td style="border: 1px solid hsl(var(--border)); padding: 12px; text-align: center; background-color: hsl(var(--brand-accent) / 0.5); font-weight: 600;">6.8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <p>Think of every VPN as a pizza and each attribute (speed, security, price, ease of use, etc.) as a topping. The heat map above is simply a scorecard that shows how much attention each AI model gave to every topping when deciding which pizza is "best."</p>
+      
+      <p>Across all five reports, <em>speed</em> and <em>security</em> tie as the top obsession; price/value spikes mainly because of Grok's deal-hunting angle.</p>
+      
+      <h4><em>The Verdict</em></h4>
+      
+      <p>All five models chose <strong>NordVPN</strong> as the winner, and each deep research report weighed the same six factors:</p>
+      
+      <ul>
+        <li><strong>Speed/performance:</strong> Generally, quoting CNET's 2025 lab tests that show a ~3% download-speed loss for NordVPN (fastest in class).</li>
+        <li><strong>Security & encryption:</strong> AES-256, WireGuard (NordLynx), RAM-only servers, independent audits (five audits cited).</li>
+        <li><strong>Privacy posture:</strong> Panama jurisdiction outside 5/9/14-Eyes, strict/no-logs proven by PwC / Deloitte.</li>
+        <li><strong>Features:</strong> Double-VPN, Onion-over-VPN, Threat Protection, Meshnet, etc.</li>
+        <li><strong>Streaming unblock reliability:</strong> 100% success across Netflix, Disney+, and BBC iPlayer in 2025 tests.</li>
+        <li><strong>Price/value:</strong> The two-year introductory plan costs US$3 per month, plus occasional promotional add-ons (such as gift cards or extra months).</li>
+      </ul>
+      
+      <h4><em>Brandweave Take</em></h4>
+      
+      <p>So there you have it, <strong>NordVPN</strong> is the AI-recommended VPN, with 100% consensus across the major 5 AI models. The unanimous agreement on NordVPN as the best choice, despite the AIs' diverse analytical personas, demonstrates a powerful marketing success story. This is crucial, as it indicates that NordVPN has effectively saturated the digital landscape with its core messages of speed, security, and privacy, making these attributes the default, objective criteria for excellence in AI research models.</p>
+      
+      <p>This creates a formidable market perception for competitors to overcome, but that doesn't mean it can't be done. For example, the fact that only one model (Grok) surfaced a class-action lawsuit regarding auto-renewal is a clear warning sign. A competing brand could centre its entire identity on transparency, amongst many other things. This is what we specialise in at Brandweave.</p>
+      
+      <div style="margin: 3rem 0; text-align: center;">
+        <img src="/lovable-uploads/brandweave-footer-banner.png" alt="Brandweave Banner" style="max-width: 100%; height: auto; border-radius: 8px;" />
+      </div>
+      
+      <p>We founded Brandweave because we believe that consumers will increasingly rely on AI models to conduct their product research and eventually let AI agents make their purchasing decisions on their behalf. How do these AI models think, reason, and evaluate brands when asked which the best ones are in any given category?</p>
+      
+      <p>We attempt to answer these questions and more, for brands and marketers, with our AI Brand Intelligence Audits. These are expert-led, evidence-based assessments of how Large Language Models (LLMs) surface, describe, and recommend your brand. In short, we show you what AI thinks of your brand AND how to make it think differently.</p>
+      
+      <p><a href="https://brandweave.ai/" style="color: hsl(var(--brand-primary)); font-weight: 600;">Find out more.</a></p>
     `
   },
   "amazons-agent-bet": {
