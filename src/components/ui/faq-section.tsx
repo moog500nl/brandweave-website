@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -18,6 +19,39 @@ const FAQSection = () => {
       answer: "Other vendors operate in the 'Generative Engine Optimisation' space, aka GEO. They offer solutions which estimate visibility in AI answers but ignore things like how an AI model reasons about a brand, and audience simulations. We are also not a generalist SEO service because we are specialists in how AI reasons about brands and the strategic implicaitons for your business"
     }
   ];
+
+  useEffect(() => {
+    // Add FAQ structured data
+    const faqStructuredData = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    };
+
+    let script = document.querySelector('script[data-faq-schema="true"]');
+    if (!script) {
+      script = document.createElement("script");
+      script.setAttribute("type", "application/ld+json");
+      script.setAttribute("data-faq-schema", "true");
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(faqStructuredData);
+
+    return () => {
+      // Cleanup on unmount
+      const existingScript = document.querySelector('script[data-faq-schema="true"]');
+      if (existingScript) {
+        document.head.removeChild(existingScript);
+      }
+    };
+  }, [faqs]);
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4">

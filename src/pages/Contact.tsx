@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/ui/navbar";
 import { useEffect } from "react";
 import { SEOHead } from "@/components/ui/seo-head";
+import { BreadcrumbNav } from "@/components/ui/breadcrumb-nav";
 const Contact = () => {
   useEffect(() => {
     // Load Tally embed script
@@ -27,7 +28,8 @@ const Contact = () => {
         }}
       />
       <Navbar />
-      <div className="pt-16">
+      <BreadcrumbNav />
+      <div className="pt-8">
         <div className="container mx-auto px-4 py-8">
           <div className="max-w-4xl mx-auto">
             

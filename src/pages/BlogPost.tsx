@@ -4,6 +4,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
+import { SEOHead } from '@/components/ui/seo-head';
+import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
 
 const blogPosts = {
   "amazons-agent-bet": {
@@ -91,8 +93,48 @@ export default function BlogPost() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title={`${post.title} | Brandweave Blog`}
+        description={`Expert insights on ${post.title}. Learn how AI is changing consumer behavior and brand perception in the digital age.`}
+        keywords={`${post.category.toLowerCase()}, AI commerce, brand analysis, consumer behavior, generative AI`}
+        ogTitle={post.title}
+        ogDescription={`Expert insights on ${post.title}`}
+        ogImage={`https://lovable.dev${post.image}`}
+        ogType="article"
+        canonicalUrl={`https://lovable.dev/blog/${slug}`}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": post.title,
+          "image": `https://lovable.dev${post.image}`,
+          "author": {
+            "@type": "Organization",
+            "name": "Brandweave"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Brandweave",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png"
+            }
+          },
+          "datePublished": post.date,
+          "dateModified": post.date,
+          "articleSection": post.category,
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://lovable.dev/blog/${slug}`
+          }
+        }}
+      />
       <Navbar />
-      <div className="pt-16">
+      <BreadcrumbNav items={[
+        { label: "Home", href: "/" },
+        { label: "Blog", href: "/blog" },
+        { label: post.title }
+      ]} />
+      <div className="pt-8">
         {/* Back to Blog */}
         <div className="container mx-auto px-4 py-6">
           <Link to="/blog">

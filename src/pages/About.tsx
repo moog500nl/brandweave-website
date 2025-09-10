@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/ui/navbar";
 import { SEOHead } from "@/components/ui/seo-head";
+import { BreadcrumbNav } from "@/components/ui/breadcrumb-nav";
 
 const About = () => {
   return (
@@ -33,7 +34,8 @@ const About = () => {
         }}
       />
       <Navbar />
-      <div className="pt-16">
+      <BreadcrumbNav />
+      <div className="pt-8">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
             
@@ -82,7 +84,7 @@ const About = () => {
                     <div className="w-64 h-80 bg-card rounded-lg overflow-hidden shadow-lg">
                       <img 
                         src="/lovable-uploads/da4b09c1-1b6b-48ef-b1ac-bdecc5a5802b.png" 
-                        alt="Marenco Kemp"
+                        alt="Marenco Kemp - Co-founder of Brandweave, former Google and Microsoft executive"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -109,7 +111,7 @@ const About = () => {
                     <div className="w-64 h-80 bg-card rounded-lg overflow-hidden shadow-lg">
                       <img 
                         src="/lovable-uploads/3ef6bda3-c1f9-4c0b-ae5a-eab14e63dc31.png" 
-                        alt="Andy Bibby"
+                        alt="Andy Bibby - Co-founder of Brandweave, former Razorfish and Microsoft Advertising executive"
                         className="w-full h-full object-cover object-top"
                       />
                     </div>

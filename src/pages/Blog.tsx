@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { SEOHead } from '@/components/ui/seo-head';
+import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
 
 const blogPosts = [
   {
@@ -53,7 +54,8 @@ export default function Blog() {
         }}
       />
       <Navbar />
-      <div className="pt-16">
+      <BreadcrumbNav />
+      <div className="pt-8">
         {/* Header Section */}
         <div className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">
           <div className="container mx-auto px-4 text-center">

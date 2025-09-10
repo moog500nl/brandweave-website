@@ -66,7 +66,7 @@ function Hero() {
           <div className="flex justify-center mt-8 mb-0">
             <img 
               src="/lovable-uploads/87d713f5-605b-4365-94c1-3282fed010ec.png" 
-              alt="Brandweave Logo" 
+              alt="Brandweave - AI Brand Intelligence Platform Logo" 
               className="h-40 md:h-48 lg:h-56"
             />
           </div>
@@ -98,27 +98,27 @@ function Hero() {
           <div className="mt-8 flex justify-center items-center gap-8 flex-wrap">
             <img 
               src="/lovable-uploads/2c23a529-dea1-4545-b023-fca22c6908aa.png" 
-              alt="Google" 
+              alt="Google - AI Technology Partner for Brand Intelligence" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
             <img 
               src="/lovable-uploads/e41de528-2ee7-4d47-9936-4c53102581b7.png" 
-              alt="OpenAI" 
+              alt="OpenAI - Advanced AI Language Models for Brand Analysis" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
             <img 
               src="/lovable-uploads/575ac639-bfc3-44b1-9446-9e02c7dca054.png" 
-              alt="Anthropic" 
+              alt="Anthropic Claude - AI Assistant for Brand Intelligence Research" 
               className="h-10 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
             <img 
               src="/lovable-uploads/98bc0703-c6b1-4744-8096-c10f2d75d42b.png" 
-              alt="Perplexity" 
+              alt="Perplexity AI - Advanced Search and Answer Engine Technology" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
             <img 
               src="/lovable-uploads/7225d0a5-ceac-438f-a6e3-8acdb41fb8fc.png" 
-              alt="Grok" 
+              alt="Grok AI - X Platform AI Technology for Brand Monitoring" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
             />
           </div>
@@ -162,10 +162,10 @@ function Hero() {
             </div>
           </div>
 
-          <div className="mt-20 max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
+          <section className="mt-20 max-w-7xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Choose a focused module or run the full program.
-            </h2>
+            </h3>
             <FeaturesSectionWithHoverEffects />
             <div className="flex justify-center mt-12">
               <Button size="lg" className="gap-4" asChild>
@@ -174,12 +174,12 @@ function Hero() {
                 </Link>
               </Button>
             </div>
-          </div>
+          </section>
 
-          <div className="mt-20 max-w-4xl mx-auto text-center px-4">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8">
+          <section className="mt-20 max-w-4xl mx-auto text-center px-4">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8">
               Future-proof your Marketing. Sign up to our free weekly newsletter, The Brand New Model.
-            </h2>
+            </h3>
             <p className="text-base md:text-lg lg:text-xl leading-relaxed tracking-tight text-muted-foreground mb-8 md:mb-12">
               We decode how AI is changing consumer choice and use that same technology to find you the single best product in a new category every week.
             </p>
@@ -192,7 +192,7 @@ function Hero() {
                 scrolling="no"
               />
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
