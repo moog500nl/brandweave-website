@@ -17,14 +17,14 @@ const blogPosts = {
     image: "/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png",
     content: `
       <h2>The Dawn of Intelligent Commerce</h2>
-      <p>Amazon's latest venture into AI agents represents a paradigm shift in how we think about e-commerce. These sophisticated systems are designed to understand customer intent at a deeper level than ever before, creating personalized shopping experiences that feel almost telepathic.</p>
+      <p>Amazon's latest venture into AI agents represents a paradigm shift in how we think about e-commerce. These sophisticated systems are designed to understand customer intent at a deeper level than ever before, creating personalised shopping experiences that feel almost telepathic.</p>
       
       <blockquote style="border-left: 4px solid hsl(var(--brand-accent)); padding-left: 1rem; margin: 2rem 0; font-style: italic; color: hsl(var(--brand-primary));">
         "The future of commerce isn't just about selling products; it's about understanding customers so well that we can anticipate their needs before they even express them."
       </blockquote>
       
-      <h2>How AI Agents Are Revolutionizing Customer Experience</h2>
-      <p>These AI agents operate on multiple levels simultaneously. They analyze browsing patterns, purchase history, seasonal trends, and even external factors like weather or local events to create a comprehensive understanding of what customers might need.</p>
+      <h2>How AI Agents Are Revolutionising Customer Experience</h2>
+      <p>These AI agents operate on multiple levels simultaneously. They analyse browsing patterns, purchase history, seasonal trends, and even external factors like weather or local events to create a comprehensive understanding of what customers might need.</p>
       
       <p>The technology goes beyond simple recommendation algorithms. These agents can engage in natural language conversations, understand context and nuance, and even handle complex customer service scenarios without human intervention.</p>
       
@@ -36,7 +36,7 @@ const blogPosts = {
       <h2>Implications for the Future of Retail</h2>
       <p>This technology has far-reaching implications beyond Amazon's ecosystem. As AI agents become more sophisticated, we can expect to see similar implementations across various industries, from healthcare to financial services.</p>
       
-      <p>The key to success will be balancing automation with human touch, ensuring that while AI handles routine tasks efficiently, complex emotional or creative decisions remain in human hands.</p>
+      <p>The key to success will be balancing automation with human touch, ensuring that whilst AI handles routine tasks efficiently, complex emotional or creative decisions remain in human hands.</p>
       
       <h2>Preparing for an AI-Driven Commerce Future</h2>
       <p>For businesses looking to compete in this new landscape, the message is clear: invest in AI capabilities now or risk being left behind. The companies that successfully integrate AI agents into their customer experience will have a significant competitive advantage.</p>
