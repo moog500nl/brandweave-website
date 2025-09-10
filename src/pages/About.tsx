@@ -47,7 +47,7 @@ const About = () => {
                 </h1>
               </div>
               
-              <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground leading-relaxed">
+              <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground leading-relaxed text-lg">
                 <p>
                   When ChatGPT launched, we, like many, became obsessed. As avid tinkerers, we saw it evolving into a powerful tool for product research, with profound implications for brands. But the more CMOs we spoke to, the clearer it became that they didn't understand what these models were telling consumers about their brands, or why.
                 </p>
