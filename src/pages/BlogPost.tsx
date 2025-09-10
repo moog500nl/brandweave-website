@@ -150,11 +150,11 @@ export default function BlogPost() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title={`${post.title} | Brandweave Blog`}
-        description={`Expert insights on ${post.title}. Learn how AI is changing consumer behavior and brand perception in the digital age.`}
-        keywords={`${post.category.toLowerCase()}, AI commerce, brand analysis, consumer behavior, generative AI`}
-        ogTitle={post.title}
-        ogDescription={`Expert insights on ${post.title}`}
+        title="When the Algorithm Goes Shopping for You | Amazon AI Agent Analysis"
+        description="Amazon's agentic AI is transforming e-commerce. From Lens Live visual search to Buy for Me purchasing agents, discover how AI agents are reshaping consumer behavior and brand strategies in 2025."
+        keywords="Amazon AI agents, agentic AI, Buy for Me, Lens Live, Rufus AI, Nova Act, AI commerce, machine learning shopping, automated purchasing, consumer behavior AI, brand optimization AI, retail automation, generative AI shopping"
+        ogTitle="When the Algorithm Goes Shopping for You - Amazon's AI Revolution"
+        ogDescription="How Amazon's AI agents like Rufus, Buy for Me, and Nova Act are transforming shopping into delegation. Essential insights for brands adapting to algorithm-driven commerce."
         ogImage={`https://lovable.dev${post.image}`}
         ogType="article"
         canonicalUrl={`https://lovable.dev/blog/${slug}`}
@@ -162,25 +162,78 @@ export default function BlogPost() {
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": post.title,
-          "image": `https://lovable.dev${post.image}`,
+          "alternativeHeadline": "Amazon's Agentic AI Revolution in E-commerce",
+          "image": {
+            "@type": "ImageObject",
+            "url": `https://lovable.dev${post.image}`,
+            "width": 1200,
+            "height": 630,
+            "caption": "Amazon's AI shopping agents transforming e-commerce"
+          },
           "author": {
             "@type": "Organization",
-            "name": "Brandweave"
+            "name": "Brandweave",
+            "url": "https://lovable.dev"
           },
           "publisher": {
             "@type": "Organization",
             "name": "Brandweave",
+            "url": "https://lovable.dev",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png"
+              "url": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png",
+              "width": 400,
+              "height": 60
             }
           },
           "datePublished": post.date,
           "dateModified": post.lastModified || post.date,
-          "articleSection": post.category,
+          "articleSection": "AI Technology",
+          "articleBody": "Amazon's agentic AI transforms shopping through Lens Live, Buy for Me agents, and Nova Act browser automation, reshaping brand discovery and consumer behavior.",
+          "wordCount": 2500,
+          "timeRequired": "PT8M",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Artificial Intelligence",
+              "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+            },
+            {
+              "@type": "Thing", 
+              "name": "E-commerce",
+              "sameAs": "https://en.wikipedia.org/wiki/E-commerce"
+            },
+            {
+              "@type": "Organization",
+              "name": "Amazon",
+              "sameAs": "https://en.wikipedia.org/wiki/Amazon_(company)"
+            }
+          ],
+          "mentions": [
+            {
+              "@type": "SoftwareApplication",
+              "name": "Amazon Rufus",
+              "applicationCategory": "AI Shopping Assistant"
+            },
+            {
+              "@type": "SoftwareApplication", 
+              "name": "Buy for Me",
+              "applicationCategory": "AI Purchasing Agent"
+            },
+            {
+              "@type": "SoftwareApplication",
+              "name": "Lens Live", 
+              "applicationCategory": "Visual Search"
+            }
+          ],
           "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": `https://lovable.dev/blog/${slug}`
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "name": "Brandweave Blog",
+            "url": "https://lovable.dev/blog"
           }
         }}
       />
@@ -207,7 +260,7 @@ export default function BlogPost() {
             <div className="aspect-video overflow-hidden rounded-lg mb-8">
               <img
                 src={post.image}
-                alt={post.title}
+                alt="Amazon's AI agents including Rufus shopping assistant and Buy for Me purchasing technology transforming e-commerce through agentic artificial intelligence"
                 className="w-full h-full object-cover"
                 loading="eager"
               />
