@@ -96,16 +96,6 @@ const blogPosts = {
       <p>Agentic shopping raises familiar, and thorny, questions. How clearly will ads be labelled inside a conversational flow. What recourse will sellers have when a model's summary mischaracterises their product. How will Amazon balance neutrality with the temptation to steer. The company is talking up safety and transparency in its retail agent work and is building governance into its enterprise agent stack, but rules, and watchdogs, will follow the money.</p>
       
       <p>The direction of travel is plain. Shopping is becoming a background process, guided by objectives and executed by software. Brands will court not only human shoppers, but the assistants that serve them. Those assistants will favour facts over flourish, reliability over romance. The brands that adapt their signals to satisfy a tireless, literal‑minded buyer will be the ones an algorithm keeps choosing.</p>
-      
-      <hr style="margin: 2rem 0; border: none; border-top: 1px solid hsl(var(--border));">
-      
-      <blockquote style="border-left: 4px solid hsl(var(--brand-accent)); padding-left: 1rem; margin: 2rem 0; font-style: italic; color: hsl(var(--brand-primary));">
-        "With Rufus, customers are now able to shop alongside a generative AI‑powered expert that knows Amazon's selection inside and out." (About Amazon)
-      </blockquote>
-      
-      <blockquote style="border-left: 4px solid hsl(var(--brand-accent)); padding-left: 1rem; margin: 2rem 0; font-style: italic; color: hsl(var(--brand-primary));">
-        "Buy for Me is enabled by AI, and runs on Amazon Bedrock, supported by Nova and Anthropic's Claude." (About Amazon)
-      </blockquote>
     `
   }
 };
