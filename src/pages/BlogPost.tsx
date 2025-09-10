@@ -14,7 +14,7 @@ const blogPosts = {
     date: "2024-01-15",
     lastModified: "2024-01-18",
     readTime: "5 min read",
-    image: "/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png",
+    image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
     content: `
       <h2>The Dawn of Intelligent Commerce</h2>
       <p>Amazon's latest venture into AI agents represents a paradigm shift in how we think about e-commerce. These sophisticated systems are designed to understand customer intent at a deeper level than ever before, creating personalised shopping experiences that feel almost telepathic.</p>
