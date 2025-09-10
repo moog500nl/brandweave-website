@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/ui/navbar";
 import { useEffect } from "react";
+import { SEOHead } from "@/components/ui/seo-head";
 const Contact = () => {
   useEffect(() => {
     // Load Tally embed script
@@ -13,6 +14,18 @@ const Contact = () => {
     };
   }, []);
   return <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Contact Brandweave - Get AI Brand Intelligence Insights"
+        description="Contact the Brandweave team to learn how generative AI portrays your brand. Get expert consultation on AI brand optimization and strategy."
+        keywords="contact brandweave, AI brand consultation, brand analysis, generative AI insights, brand strategy"
+        canonicalUrl="https://lovable.dev/contact"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "name": "Contact Brandweave",
+          "description": "Get in touch with Brandweave for AI brand intelligence insights"
+        }}
+      />
       <Navbar />
       <div className="pt-16">
         <div className="container mx-auto px-4 py-8">

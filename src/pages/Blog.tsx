@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
+import { SEOHead } from '@/components/ui/seo-head';
 
 const blogPosts = [
   {
@@ -34,6 +35,23 @@ export default function Blog() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Brandweave Blog - AI & Consumer Behavior Insights"
+        description="Expert insights on how AI is changing consumer behavior, brand perception, and the future of AI-powered commerce. Latest articles on generative engine optimization."
+        keywords="AI blog, consumer behavior, brand perception, generative AI, AI commerce, marketing insights, GEO, AEO"
+        canonicalUrl="https://lovable.dev/blog"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          "name": "Brandweave Blog",
+          "description": "Insights into how AI is changing consumer behaviour",
+          "url": "https://lovable.dev/blog",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Brandweave"
+          }
+        }}
+      />
       <Navbar />
       <div className="pt-16">
         {/* Header Section */}

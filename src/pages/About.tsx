@@ -1,8 +1,37 @@
 import { Navbar } from "@/components/ui/navbar";
+import { SEOHead } from "@/components/ui/seo-head";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="About Brandweave - AI Brand Intelligence Founders & Story"
+        description="Meet the founders of Brandweave: Marenco Kemp (ex-Google, Microsoft) and Andy Bibby (ex-Razorfish, Microsoft) who created the future of AI brand analysis."
+        keywords="about brandweave, founders, marenco kemp, andy bibby, AI brand intelligence, company story, leadership team"
+        canonicalUrl="https://lovable.dev/about"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "About Brandweave",
+          "description": "Learn about Brandweave's mission to analyze how generative AI portrays brands",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Brandweave",
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Marenco Kemp",
+                "description": "Co-founder with over two decades of leadership experience at Google and Microsoft"
+              },
+              {
+                "@type": "Person",
+                "name": "Andy Bibby", 
+                "description": "Co-founder with expertise in digital marketing and advertising at Razorfish and Microsoft"
+              }
+            ]
+          }
+        }}
+      />
       <Navbar />
       <div className="pt-16">
         <div className="container mx-auto px-4 py-16">
