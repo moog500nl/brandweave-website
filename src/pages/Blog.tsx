@@ -12,8 +12,8 @@ import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
 const blogPosts = [
   {
     id: 1,
-    title: "Amazon's Agent Bet: The Future of AI-Powered Commerce",
-    excerpt: "How Amazon is revolutionizing e-commerce through intelligent AI agents that understand customer intent and deliver personalized shopping experiences.",
+    title: "When the algorithm goes shopping for you",
+    excerpt: "Amazon's latest foray into agentic artificial intelligence is turning the act of shopping into an act of delegation. A cluster of releases points to a future where consumers set objectives, then watch software do the legwork.",
     category: "AI",
     date: "2024-01-15",
     image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
