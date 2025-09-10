@@ -196,29 +196,6 @@ export default function BlogPost() {
                   dangerouslySetInnerHTML={{ __html: post.content }}
                   className="[&>h2]:text-2xl [&>h2]:font-semibold [&>h2]:text-brand-primary [&>h2]:mt-8 [&>h2]:mb-4 [&>p]:mb-6 [&>p]:leading-relaxed [&>blockquote]:bg-brand-accent/5 [&>blockquote]:p-4 [&>blockquote]:rounded-lg [&>blockquote]:my-6"
                 />
-                
-                {/* Related Articles */}
-                <div className="mt-12 pt-8 border-t border-border">
-                  <h3 className="text-xl font-semibold text-brand-primary mb-4">Related Articles</h3>
-                  <div className="grid gap-4">
-                    <Link to="/blog" className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                      <h4 className="font-medium text-brand-primary group-hover:underline mb-2">
-                        Explore More AI & Brand Intelligence Insights
-                      </h4>
-                      <p className="text-sm text-muted-foreground">
-                        Discover our latest research on how AI is transforming brand perception and consumer behavior.
-                      </p>
-                    </Link>
-                    <Link to="/contact" className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                      <h4 className="font-medium text-brand-primary group-hover:underline mb-2">
-                        Get Your Brand AI Diagnostic
-                      </h4>
-                      <p className="text-sm text-muted-foreground">
-                        Request a comprehensive analysis of how AI models perceive and recommend your brand.
-                      </p>
-                    </Link>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>
