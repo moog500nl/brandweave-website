@@ -11,8 +11,8 @@ const blogPosts = {
   "amazons-agent-bet": {
     title: "Amazon's Agent Bet: The Future of AI-Powered Commerce",
     category: "AI",
-    date: "2024-01-15",
-    lastModified: "2024-01-18",
+    date: "2025-09-10",
+    lastModified: "2025-09-10",
     readTime: "5 min read",
     image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
     content: `
