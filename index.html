@@ -23,11 +23,31 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"></noscript>
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Performance optimization script -->
+    <script>
+      // Preload critical resources
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+          // Preload blog images when idle
+          const blogImages = [
+            '/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png'
+          ];
+          blogImages.forEach(src => {
+            const link = document.createElement('link');
+            link.rel = 'prefetch';
+            link.href = src;
+            document.head.appendChild(link);
+          });
+        });
+      }
+    </script>
   </body>
 </html>

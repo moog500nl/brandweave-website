@@ -12,6 +12,8 @@ const blogPosts = {
     title: "Amazon's Agent Bet: The Future of AI-Powered Commerce",
     category: "AI",
     date: "2024-01-15",
+    lastModified: "2024-01-18",
+    readTime: "5 min read",
     image: "/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png",
     content: `
       <h2>The Dawn of Intelligent Commerce</h2>
@@ -120,7 +122,7 @@ export default function BlogPost() {
             }
           },
           "datePublished": post.date,
-          "dateModified": post.date,
+          "dateModified": post.lastModified || post.date,
           "articleSection": post.category,
           "mainEntityOfPage": {
             "@type": "WebPage",
@@ -153,18 +155,30 @@ export default function BlogPost() {
                 src={post.image}
                 alt={post.title}
                 className="w-full h-full object-cover"
+                loading="eager"
               />
             </div>
             
-            <div className="flex items-center gap-4 mb-6">
+            <div className="flex items-center gap-4 mb-6 flex-wrap">
               <Badge variant="secondary" className="bg-brand-accent/20 text-brand-primary">
                 <Tag className="w-3 h-3 mr-1" />
                 {post.category}
               </Badge>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Calendar className="w-3 h-3 mr-1" />
-                {new Date(post.date).toLocaleDateString()}
+                Published: {new Date(post.date).toLocaleDateString()}
               </div>
+              {post.lastModified && post.lastModified !== post.date && (
+                <div className="flex items-center text-sm text-muted-foreground">
+                  <Calendar className="w-3 h-3 mr-1" />
+                  Updated: {new Date(post.lastModified).toLocaleDateString()}
+                </div>
+              )}
+              {post.readTime && (
+                <div className="text-sm text-muted-foreground">
+                  {post.readTime}
+                </div>
+              )}
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-brand-primary mb-8 leading-tight">
@@ -182,6 +196,29 @@ export default function BlogPost() {
                   dangerouslySetInnerHTML={{ __html: post.content }}
                   className="[&>h2]:text-2xl [&>h2]:font-semibold [&>h2]:text-brand-primary [&>h2]:mt-8 [&>h2]:mb-4 [&>p]:mb-6 [&>p]:leading-relaxed [&>blockquote]:bg-brand-accent/5 [&>blockquote]:p-4 [&>blockquote]:rounded-lg [&>blockquote]:my-6"
                 />
+                
+                {/* Related Articles */}
+                <div className="mt-12 pt-8 border-t border-border">
+                  <h3 className="text-xl font-semibold text-brand-primary mb-4">Related Articles</h3>
+                  <div className="grid gap-4">
+                    <Link to="/blog" className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                      <h4 className="font-medium text-brand-primary group-hover:underline mb-2">
+                        Explore More AI & Brand Intelligence Insights
+                      </h4>
+                      <p className="text-sm text-muted-foreground">
+                        Discover our latest research on how AI is transforming brand perception and consumer behavior.
+                      </p>
+                    </Link>
+                    <Link to="/contact" className="group block p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                      <h4 className="font-medium text-brand-primary group-hover:underline mb-2">
+                        Get Your Brand AI Diagnostic
+                      </h4>
+                      <p className="text-sm text-muted-foreground">
+                        Request a comprehensive analysis of how AI models perceive and recommend your brand.
+                      </p>
+                    </Link>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>

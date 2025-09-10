@@ -68,6 +68,7 @@ function Hero() {
               src="/lovable-uploads/87d713f5-605b-4365-94c1-3282fed010ec.png" 
               alt="Brandweave - AI Brand Intelligence Platform Logo" 
               className="h-40 md:h-48 lg:h-56"
+              loading="eager"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -100,26 +101,31 @@ function Hero() {
               src="/lovable-uploads/2c23a529-dea1-4545-b023-fca22c6908aa.png" 
               alt="Google - AI Technology Partner for Brand Intelligence" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
             />
             <img 
               src="/lovable-uploads/e41de528-2ee7-4d47-9936-4c53102581b7.png" 
               alt="OpenAI - Advanced AI Language Models for Brand Analysis" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
             />
             <img 
               src="/lovable-uploads/575ac639-bfc3-44b1-9446-9e02c7dca054.png" 
               alt="Anthropic Claude - AI Assistant for Brand Intelligence Research" 
               className="h-10 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
             />
             <img 
               src="/lovable-uploads/98bc0703-c6b1-4744-8096-c10f2d75d42b.png" 
               alt="Perplexity AI - Advanced Search and Answer Engine Technology" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
             />
             <img 
               src="/lovable-uploads/7225d0a5-ceac-438f-a6e3-8acdb41fb8fc.png" 
               alt="Grok AI - X Platform AI Technology for Brand Monitoring" 
               className="h-12 opacity-60 hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
             />
           </div>
           

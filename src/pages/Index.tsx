@@ -1,6 +1,6 @@
-import { Hero } from "@/components/ui/animated-hero";
+import { LazyHero } from "@/components/ui/lazy-hero";
 import { Navbar } from "@/components/ui/navbar";
-import { FAQSection } from "@/components/ui/faq-section";
+import { LazyFAQSection } from "@/components/ui/lazy-faq";
 import { SEOHead } from "@/components/ui/seo-head";
 
 const Index = () => {
@@ -32,9 +32,9 @@ const Index = () => {
       />
       <Navbar />
       <div className="pt-16">
-        <Hero />
+        <LazyHero />
         <div className="mt-5 pb-20">
-          <FAQSection />
+          <LazyFAQSection />
         </div>
       </div>
     </div>
