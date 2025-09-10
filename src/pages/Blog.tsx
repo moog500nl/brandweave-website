@@ -16,7 +16,7 @@ const blogPosts = [
     excerpt: "How Amazon is revolutionizing e-commerce through intelligent AI agents that understand customer intent and deliver personalized shopping experiences.",
     category: "AI",
     date: "2024-01-15",
-    image: "/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png",
+    image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
     slug: "amazons-agent-bet"
   }
 ];
