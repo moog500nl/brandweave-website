@@ -4,26 +4,7 @@ import { ExternalLink } from "lucide-react";
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const externalLinks = [
-    {
-      title: "Industry Resources",
-      links: [
-        { name: "Adyen Retail Report", url: "https://www.adyen.com/knowledge-hub/retail-report" },
-        { name: "McKinsey AI Insights", url: "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-age-of-ai-how-artificial-intelligence-is-transforming-business" },
-        { name: "OpenAI Research", url: "https://openai.com/research" },
-        { name: "Google AI Blog", url: "https://blog.google/technology/ai/" }
-      ]
-    },
-    {
-      title: "AI Platforms",
-      links: [
-        { name: "ChatGPT", url: "https://openai.com/chatgpt" },
-        { name: "Google Bard", url: "https://bard.google.com" },
-        { name: "Claude AI", url: "https://claude.ai" },
-        { name: "Perplexity AI", url: "https://perplexity.ai" }
-      ]
-    }
-  ];
+  const externalLinks = [];
 
   const internalLinks = [
     { name: "Homepage", href: "/" },
