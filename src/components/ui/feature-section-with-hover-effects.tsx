@@ -74,9 +74,11 @@ const Feature = ({
       <p className="text-xs text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10">
         <span className="font-semibold">Outcome:</span> {outcome}
       </p>
-      <p className="text-xs font-semibold text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10 mt-2">
-        Actionable Recommendations.
-      </p>
+      {title !== "Executive Strategy Session" && (
+        <p className="text-xs font-semibold text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10 mt-2">
+          Actionable Recommendations.
+        </p>
+      )}
     </div>
   );
 };
