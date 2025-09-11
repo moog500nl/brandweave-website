@@ -5,8 +5,8 @@ export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
       title: "Executive Strategy Session",
-      description: "A facilitated C-suite workshop.",
-      outcome: "Leadership alignment on AI discovery within 30 days.",
+      description: "Facilitated C-Suite briefing on the impact of AI on customer and prospect behaviour",
+      outcome: "Leadership alignment on AI discovery trends. Understand how customer & prospect behaviour is changing and what is hype vs. reality.",
       icon: <Target />,
     },
     {
