@@ -16,9 +16,9 @@ export function Footer() {
   return (
     <footer className="bg-muted/30 border-t border-border mt-20">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <Link to="/" className="flex items-center mb-4">
               <img
                 src="/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
@@ -32,7 +32,7 @@ export function Footer() {
           </div>
 
           {/* Internal Navigation */}
-          <div>
+          <div className="md:justify-self-end">
             <h3 className="font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               {internalLinks.map((link) => (
@@ -47,28 +47,6 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
-          {/* External Links */}
-          {externalLinks.map((section) => (
-            <div key={section.title}>
-              <h3 className="font-semibold mb-4">{section.title}</h3>
-              <ul className="space-y-2">
-                {section.links.map((link) => (
-                  <li key={link.name}>
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
-                    >
-                      {link.name}
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
         </div>
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
