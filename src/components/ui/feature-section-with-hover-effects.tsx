@@ -4,7 +4,7 @@ import { Shield, BarChart, Users, TrendingUp, Target } from "lucide-react";
 export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
-      title: "AI Judgement Briefing",
+      title: "AI Perception",
       description: "Forensic analysis of how major models perceive your brand within the category.",
       outcome: "Clear view of position, with quantified gaps versus leaders.",
       icon: <Shield />,
@@ -83,8 +83,11 @@ const Feature = ({
       <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10 mb-3">
         {description}
       </p>
-      <p className="text-xs font-semibold text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10">
-        Outcome: {outcome}
+      <p className="text-xs text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10">
+        <span className="font-semibold">Outcome:</span> {outcome}
+      </p>
+      <p className="text-xs font-semibold text-neutral-700 dark:text-neutral-200 max-w-xs relative z-10 px-10 mt-2">
+        Actionable Recommendations.
       </p>
     </div>
   );
