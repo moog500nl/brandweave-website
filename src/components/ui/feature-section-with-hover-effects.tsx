@@ -10,6 +10,12 @@ export function FeaturesSectionWithHoverEffects() {
       icon: <Target />,
     },
     {
+      title: "AI Perception",
+      description: "Forensic analysis of how major models perceive your brand within the category.",
+      outcome: "Clear view of position, with quantified gaps versus leaders.",
+      icon: <Shield />,
+    },
+    {
       title: "Brand Duel Analysis", 
       description: "Head to head comparisons against priority competitors.",
       outcome: "Evidence of where and why rivals are favoured, including attributes and percent likelihoods.",
@@ -20,12 +26,6 @@ export function FeaturesSectionWithHoverEffects() {
       description: "Simulations across all major buyer-personas.",
       outcome: "Where you win and where you risk losing, by customer segment.",
       icon: <Users />,
-    },
-    {
-      title: "AI Perception",
-      description: "Forensic analysis of how major models perceive your brand within the category.",
-      outcome: "Clear view of position, with quantified gaps versus leaders.",
-      icon: <Shield />,
     },
   ];
   return (
