@@ -16,16 +16,16 @@ export function FeaturesSectionWithHoverEffects() {
       icon: <Shield />,
     },
     {
-      title: "Brand Duel Analysis", 
-      description: "Head to head comparisons against priority competitors.",
-      outcome: "Evidence of where and why rivals are favoured, including attributes and percent likelihoods.",
-      icon: <BarChart />,
-    },
-    {
       title: "Audience Resonance Testing",
       description: "Simulations across all major buyer-personas.",
       outcome: "Where you win and where you risk losing, by customer segment.",
       icon: <Users />,
+    },
+    {
+      title: "Brand Duel Analysis", 
+      description: "Head to head comparisons against priority competitors.",
+      outcome: "Evidence of where and why rivals are favoured, including attributes and percent likelihoods.",
+      icon: <BarChart />,
     },
   ];
   return (
