@@ -32,7 +32,7 @@ export function Footer() {
           </div>
 
           {/* Internal Navigation */}
-          <div>
+          <div className="md:justify-self-end">
             <h3 className="font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               {internalLinks.map((link) => (
