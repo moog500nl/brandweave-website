@@ -55,7 +55,7 @@ export function Footer() {
           </p>
           <div className="flex items-center gap-4 mt-4 sm:mt-0">
             <a
-              href="https://brandweave.substack.com"
+              href="https://brandweave.substack.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
