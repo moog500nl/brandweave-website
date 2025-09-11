@@ -4,10 +4,10 @@ import { Shield, BarChart, Users, Target } from "lucide-react";
 export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
-      title: "AI Perception",
-      description: "Forensic analysis of how major models perceive your brand within the category.",
-      outcome: "Clear view of position, with quantified gaps versus leaders.",
-      icon: <Shield />,
+      title: "Executive Strategy Session",
+      description: "A facilitated C-suite workshop.",
+      outcome: "Leadership alignment on AI discovery within 30 days.",
+      icon: <Target />,
     },
     {
       title: "Brand Duel Analysis", 
@@ -22,10 +22,10 @@ export function FeaturesSectionWithHoverEffects() {
       icon: <Users />,
     },
     {
-      title: "Executive Strategy Session",
-      description: "A facilitated C-suite workshop.",
-      outcome: "Leadership alignment on AI discovery within 30 days.",
-      icon: <Target />,
+      title: "AI Perception",
+      description: "Forensic analysis of how major models perceive your brand within the category.",
+      outcome: "Clear view of position, with quantified gaps versus leaders.",
+      icon: <Shield />,
     },
   ];
   return (
