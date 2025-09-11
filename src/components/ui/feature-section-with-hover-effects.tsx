@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Shield, BarChart, Users, TrendingUp, Target } from "lucide-react";
+import { Shield, BarChart, Users, Target } from "lucide-react";
 
 export function FeaturesSectionWithHoverEffects() {
   const features = [
@@ -22,12 +22,6 @@ export function FeaturesSectionWithHoverEffects() {
       icon: <Users />,
     },
     {
-      title: "Narrative Alignment Roadmap",
-      description: "Align brand truths with the reasoning AI relies on.",
-      outcome: "Step by step actions to increase probability of recommendation.",
-      icon: <TrendingUp />,
-    },
-    {
       title: "Executive Strategy Session",
       description: "A facilitated C-suite workshop.",
       outcome: "Leadership alignment on AI discovery within 30 days.",
@@ -35,7 +29,7 @@ export function FeaturesSectionWithHoverEffects() {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 relative z-10 py-10 max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 py-10 max-w-7xl mx-auto">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}
@@ -60,17 +54,11 @@ const Feature = ({
     <div
       className={cn(
         "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        (index === 0 || index === 3) && "lg:border-l dark:border-neutral-800",
+        index === 0 && "lg:border-l dark:border-neutral-800",
         "lg:border-b dark:border-neutral-800"
       )}
     >
-      {index < 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
-      )}
-      {index >= 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
-      )}
+      <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
       <div className="mb-4 relative z-10 px-10" style={{ color: '#fca311' }}>
         {icon}
       </div>
