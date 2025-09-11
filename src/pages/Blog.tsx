@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { SEOHead } from '@/components/ui/seo-head';
 import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
+import { Footer } from '@/components/ui/footer';
 
 const blogPosts = [
   {
@@ -161,6 +162,7 @@ export default function Blog() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

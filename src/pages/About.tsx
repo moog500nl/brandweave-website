@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/ui/navbar";
 import { SEOHead } from "@/components/ui/seo-head";
 import { BreadcrumbNav } from "@/components/ui/breadcrumb-nav";
+import { Footer } from "@/components/ui/footer";
 
 const About = () => {
   return (
@@ -125,6 +126,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

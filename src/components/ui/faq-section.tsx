@@ -16,7 +16,17 @@ const FAQSection = () => {
     {
       id: "item-2", 
       question: "How are you different from other solutions?",
-      answer: "Other vendors operate in the 'Generative Engine Optimisation' space, aka GEO. They offer solutions which estimate visibility in AI answers but ignore things like how an AI model reasons about a brand, and audience simulations. We are also not a generalist SEO service because we are specialists in how AI reasons about brands and the strategic implicaitons for your business"
+      answer: "Other vendors operate in the 'Generative Engine Optimisation' space, aka GEO. They offer solutions which estimate visibility in AI answers but ignore things like how an AI model reasons about a brand, and audience simulations. We are also not a generalist SEO service because we are specialists in how AI reasons about brands and the strategic implications for your business."
+    },
+    {
+      id: "item-3",
+      question: "What insights do major research firms provide about AI shopping behavior?",
+      answer: "According to <a href='https://www.adyen.com/knowledge-hub/retail-report' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>Adyen's 2025 Retail Report</a>, 37% of consumers already use AI to assist with shopping, and 53% of those use it to research products. <a href='https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-age-of-ai-how-artificial-intelligence-is-transforming-business' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>McKinsey research</a> shows AI is fundamentally changing how consumers discover and evaluate brands."
+    },
+    {
+      id: "item-4",
+      question: "How do AI models like ChatGPT and Google Bard impact brand visibility?",
+      answer: "AI language models are becoming primary search interfaces for consumers. <a href='https://openai.com/chatgpt' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>ChatGPT</a> and <a href='https://bard.google.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>Google Bard</a> don't just provide information - they make recommendations and comparisons that directly influence purchase decisions. Understanding how these systems perceive your brand is crucial for future marketing success."
     }
   ];
 
@@ -71,7 +81,7 @@ const FAQSection = () => {
               {faq.question}
             </AccordionTrigger>
             <AccordionContent className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              {faq.answer}
+              <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
             </AccordionContent>
           </AccordionItem>
         ))}

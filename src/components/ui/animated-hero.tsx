@@ -91,8 +91,16 @@ function Hero() {
           </div>
           <div className="mt-8 max-w-4xl mx-auto">
             <blockquote className="text-center">
-              <p className="text-2xl md:text-3xl font-medium leading-relaxed" style={{ color: '#fca311' }}>
-                "37 percent of consumers already use AI to assist with shopping, and 53 percent of those use it to research products." -Adyen 2025 Retail Report
+            <p className="text-2xl md:text-3xl font-medium leading-relaxed" style={{ color: '#fca311' }}>
+                "37 percent of consumers already use AI to assist with shopping, and 53 percent of those use it to research products." -{' '}
+                <a 
+                  href="https://www.adyen.com/knowledge-hub/retail-report" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Adyen 2025 Retail Report
+                </a>
               </p>
             </blockquote>
           </div>
@@ -198,6 +206,17 @@ function Hero() {
                 scrolling="no"
               />
             </div>
+            <p className="text-sm text-muted-foreground mt-4">
+              Powered by{' '}
+              <a 
+                href="https://substack.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Substack
+              </a>
+            </p>
           </section>
         </div>
       </div>

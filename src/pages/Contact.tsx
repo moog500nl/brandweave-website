@@ -2,6 +2,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { useEffect } from "react";
 import { SEOHead } from "@/components/ui/seo-head";
 import { BreadcrumbNav } from "@/components/ui/breadcrumb-nav";
+import { Footer } from "@/components/ui/footer";
 const Contact = () => {
   useEffect(() => {
     // Load Tally embed script
@@ -39,6 +40,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>;
 };
 export default Contact;

@@ -2,6 +2,7 @@ import { LazyHero } from "@/components/ui/lazy-hero";
 import { Navbar } from "@/components/ui/navbar";
 import { LazyFAQSection } from "@/components/ui/lazy-faq";
 import { SEOHead } from "@/components/ui/seo-head";
+import { Footer } from "@/components/ui/footer";
 
 const Index = () => {
   return (
@@ -33,10 +34,11 @@ const Index = () => {
       <Navbar />
       <div className="pt-16">
         <LazyHero />
-        <div className="mt-5 pb-20">
+        <div className="mt-5">
           <LazyFAQSection />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
