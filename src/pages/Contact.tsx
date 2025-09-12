@@ -3,6 +3,9 @@ import { useEffect } from "react";
 import { SEOHead } from "@/components/ui/seo-head";
 import { BreadcrumbNav } from "@/components/ui/breadcrumb-nav";
 import { Footer } from "@/components/ui/footer";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowLeft, MessageCircle, Info } from "lucide-react";
 const Contact = () => {
   useEffect(() => {
     // Load Tally embed script
@@ -44,6 +47,30 @@ const Contact = () => {
             
             <div className="bg-card rounded-lg shadow-lg overflow-hidden">
               <iframe data-tally-src="https://tally.so/embed/3xogVJ?alignLeft=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameBorder="0" marginHeight={0} marginWidth={0} title="Contact form" className="min-h-[600px]" />
+            </div>
+
+            {/* Navigation Links */}
+            <div className="mt-12 text-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Link to="/">
+                  <Button variant="outline" className="w-full sm:w-auto">
+                    <ArrowLeft className="w-4 h-4 mr-2" />
+                    Back to Home
+                  </Button>
+                </Link>
+                <Link to="/about">
+                  <Button variant="outline" className="w-full sm:w-auto">
+                    <Info className="w-4 h-4 mr-2" />
+                    Learn About Us
+                  </Button>
+                </Link>
+                <Link to="/blog">
+                  <Button variant="outline" className="w-full sm:w-auto">
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Read Our Blog
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
