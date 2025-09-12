@@ -24,6 +24,7 @@ const Contact = () => {
         description="Contact the Brandweave team to learn how generative AI portrays your brand. Get expert consultation on AI brand optimization and strategy."
         keywords="contact brandweave, AI brand consultation, brand analysis, generative AI insights, brand strategy"
         canonicalUrl="https://lovable.dev/contact"
+        ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "ContactPage",

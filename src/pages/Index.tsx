@@ -12,6 +12,7 @@ const Index = () => {
         description="Discover how generative AI portrays your brand. Get insights into AI model recommendations and optimize your brand presence for the future of AI-powered commerce."
         keywords="AI brand intelligence, generative engine optimization, GEO, AEO, brand analysis, AI recommendations, brand visibility, generative AI"
         canonicalUrl="https://lovable.dev/"
+        ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Organization",

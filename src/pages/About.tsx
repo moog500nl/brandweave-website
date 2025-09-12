@@ -11,6 +11,7 @@ const About = () => {
         description="Meet the founders of Brandweave: Marenco Kemp (ex-Google, Microsoft) and Andy Bibby (ex-Razorfish, Microsoft) who created the future of AI brand analysis."
         keywords="about brandweave, founders, marenco kemp, andy bibby, AI brand intelligence, company story, leadership team"
         canonicalUrl="https://lovable.dev/about"
+        ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "AboutPage",

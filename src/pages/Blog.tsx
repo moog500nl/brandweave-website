@@ -42,6 +42,7 @@ export default function Blog() {
         description="Expert insights on how AI is changing consumer behavior, brand perception, and the future of AI-powered commerce. Latest articles on generative engine optimization."
         keywords="AI blog, consumer behavior, brand perception, generative AI, AI commerce, marketing insights, GEO, AEO"
         canonicalUrl="https://lovable.dev/blog"
+        ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Blog",
