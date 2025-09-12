@@ -6,53 +6,16 @@ import { Footer } from "@/components/ui/footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowLeft, MessageCircle, Info } from "lucide-react";
-
-// Declare window.calendar for TypeScript
-declare global {
-  interface Window {
-    calendar?: {
-      schedulingButton: {
-        load: (config: {
-          url: string;
-          color: string;
-          label: string;
-          target: HTMLElement;
-        }) => void;
-      };
-    };
-  }
-}
 const Contact = () => {
   useEffect(() => {
     // Load Tally embed script
-    const tallyScript = document.createElement('script');
-    tallyScript.src = 'https://tally.so/widgets/embed.js';
-    tallyScript.async = true;
-    document.head.appendChild(tallyScript);
-
-    // Load Google Calendar scheduling CSS
-    const calendarCSS = document.createElement('link');
-    calendarCSS.href = 'https://calendar.google.com/calendar/scheduling-button-script.css';
-    calendarCSS.rel = 'stylesheet';
-    document.head.appendChild(calendarCSS);
-
-    // Load Google Calendar scheduling script
-    const calendarScript = document.createElement('script');
-    calendarScript.src = 'https://calendar.google.com/calendar/scheduling-button-script.js';
-    calendarScript.async = true;
-    document.head.appendChild(calendarScript);
-
+    const script = document.createElement('script');
+    script.src = 'https://tally.so/widgets/embed.js';
+    script.async = true;
+    document.head.appendChild(script);
     return () => {
-      // Cleanup scripts on unmount
-      if (document.head.contains(tallyScript)) {
-        document.head.removeChild(tallyScript);
-      }
-      if (document.head.contains(calendarCSS)) {
-        document.head.removeChild(calendarCSS);
-      }
-      if (document.head.contains(calendarScript)) {
-        document.head.removeChild(calendarScript);
-      }
+      // Cleanup script on unmount
+      document.head.removeChild(script);
     };
   }, []);
   return <div className="min-h-screen bg-background">
@@ -85,38 +48,6 @@ const Contact = () => {
             
             <div className="bg-card rounded-lg shadow-lg overflow-hidden">
               <iframe data-tally-src="https://tally.so/embed/3xogVJ?alignLeft=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameBorder="0" marginHeight={0} marginWidth={0} title="Contact form" className="min-h-[600px]" />
-            </div>
-
-            {/* Google Calendar Appointment Scheduling */}
-            <div className="mt-8 text-center">
-              <div 
-                id="calendar-button-target"
-                ref={(el) => {
-                  if (el) {
-                    // Initialize calendar button when scripts are loaded
-                    const initCalendar = () => {
-                      if (window.calendar?.schedulingButton) {
-                        window.calendar.schedulingButton.load({
-                          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0iKkSKzVcPSXEq31BwiyrbG7-kpBvr9PE3qihKy_W0zh576aBTEt8biXdVHvmVVW5gvkF2hOoJ?gv=true',
-                          color: '#EF6C00',
-                          label: 'Book an appointment',
-                          target: el,
-                        });
-                      }
-                    };
-
-                    // Try to initialize immediately if already loaded
-                    if (window.calendar?.schedulingButton) {
-                      initCalendar();
-                    } else {
-                      // Wait for window load event
-                      window.addEventListener('load', initCalendar);
-                      // Also try with a timeout as fallback
-                      setTimeout(initCalendar, 2000);
-                    }
-                  }
-                }}
-              />
             </div>
 
             {/* Navigation Links */}
