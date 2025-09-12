@@ -33,6 +33,14 @@ const Contact = () => {
       <div className="pt-8">
         <div className="container mx-auto px-4 py-8">
           <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Contact Us
+              </h1>
+              <p className="text-lg text-muted-foreground">
+                Get in touch with the Brandweave team to learn how generative AI portrays your brand
+              </p>
+            </div>
             
             <div className="bg-card rounded-lg shadow-lg overflow-hidden">
               <iframe data-tally-src="https://tally.so/embed/3xogVJ?alignLeft=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameBorder="0" marginHeight={0} marginWidth={0} title="Contact form" className="min-h-[600px]" />
