@@ -93,7 +93,7 @@ const blogPosts = {
       <p><strong>6. Build brand memory outside the agent.</strong> If loyalty shifts to the assistant, brands must invest in communities, owned channels and experiences that lodge preferences before the prompt is ever written.</p>
       
       <h2>The policy and trust ledger</h2>
-      <p>Agentic shopping raises familiar, and thorny, questions. How clearly will ads be labelled inside a conversational flow. What recourse will sellers have when a model's summary mischaracterises their product. How will Amazon balance neutrality with the temptation to steer. The company is talking up safety and transparency in its retail agent work and is building governance into its enterprise agent stack, but rules, and watchdogs, will follow the money.</p>
+      <p>Agentic shopping raises familiar, and thorny, questions. How clearly will ads be labelled inside a conversational flow? What recourse will sellers have when a model's summary mischaracterises their product? How will Amazon balance neutrality with the temptation to steer? The company is talking up safety and transparency in its retail agent work and is building governance into its enterprise agent stack, but rules, and watchdogs, will follow the money.</p>
       
       <p>The direction of travel is plain. Shopping is becoming a background process, guided by objectives and executed by software. Brands will court not only human shoppers, but the assistants that serve them. Those assistants will favour facts over flourish, reliability over romance. The brands that adapt their signals to satisfy a tireless, literal‑minded buyer will be the ones an algorithm keeps choosing.</p>
     `
