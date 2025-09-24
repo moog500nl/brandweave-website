@@ -124,7 +124,7 @@ const SocialShareButton = ({ platform, url, title }: { platform: string; url: st
 };
 
 export default function BlogPost() {
-  const { slug } = useParams<{ slug: string }>();
+  const { slug }.
   const post = slug ? blogPosts[slug as keyof typeof blogPosts] : null;
 
   if (!post) {
@@ -157,7 +157,7 @@ export default function BlogPost() {
         ogDescription="How Amazon's AI agents like Rufus, Buy for Me, and Nova Act are transforming shopping into delegation. Essential insights for brands adapting to algorithm-driven commerce."
         ogImage={`https://lovable.dev${post.image}`}
         ogType="article"
-        canonicalUrl={`https://lovable.dev/blog/${slug}`}
+        canonicalUrl={`https://brandweave.ai/blog/${slug}`}
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Article",
@@ -173,12 +173,12 @@ export default function BlogPost() {
           "author": {
             "@type": "Organization",
             "name": "Brandweave",
-            "url": "https://lovable.dev"
+            "url": "https://brandweave.ai"
           },
           "publisher": {
             "@type": "Organization",
             "name": "Brandweave",
-            "url": "https://lovable.dev",
+            "url": "https://brandweave.ai",
             "logo": {
               "@type": "ImageObject",
               "url": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png",
@@ -228,12 +228,12 @@ export default function BlogPost() {
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://lovable.dev/blog/${slug}`
+            "@id": `https://brandweave.ai/blog/${slug}`
           },
           "isPartOf": {
             "@type": "Blog",
             "name": "Brandweave Blog",
-            "url": "https://lovable.dev/blog"
+            "url": "https://brandweave.ai/blog"
           }
         }}
       />
