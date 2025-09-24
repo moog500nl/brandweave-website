@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Brandweave - AI Brand Intelligence & Generative Engine Optimization"
+        title="Brandweave - AI Brand Intelligence for CMOs"
         description="Discover how generative AI portrays your brand. Get insights into AI model recommendations and optimize your brand presence for the future of AI-powered commerce."
         keywords="AI brand intelligence, generative engine optimization, GEO, AEO, brand analysis, AI recommendations, brand visibility, generative AI"
         canonicalUrl="https://lovable.dev/"

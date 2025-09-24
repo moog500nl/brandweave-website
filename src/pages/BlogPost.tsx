@@ -134,7 +134,7 @@ export default function BlogPost() {
         <div className="pt-16 container mx-auto px-4 py-20 text-center">
           <h1 className="text-4xl font-bold text-brand-primary mb-4">Post Not Found</h1>
           <p className="text-muted-foreground mb-8">The blog post you're looking for doesn't exist.</p>
-          <Link to="/blog">
+          <Link to="/blog/">
             <Button className="bg-brand-primary hover:bg-brand-primary/90">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Blog
@@ -150,7 +150,7 @@ export default function BlogPost() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="When the Algorithm Goes Shopping for You | Amazon AI Agent Analysis"
+        title="When the Algorithm Goes Shopping for You | Brandweave"
         description="Amazon's agentic AI is transforming e-commerce. From Lens Live visual search to Buy for Me purchasing agents, discover how AI agents are reshaping consumer behavior and brand strategies in 2025."
         keywords="Amazon AI agents, agentic AI, Buy for Me, Lens Live, Rufus AI, Nova Act, AI commerce, machine learning shopping, automated purchasing, consumer behavior AI, brand optimization AI, retail automation, generative AI shopping"
         ogTitle="When the Algorithm Goes Shopping for You - Amazon's AI Revolution"
@@ -240,13 +240,13 @@ export default function BlogPost() {
       <Navbar />
       <BreadcrumbNav items={[
         { label: "Home", href: "/" },
-        { label: "Blog", href: "/blog" },
+        { label: "Blog", href: "/blog/" },
         { label: post.title }
       ]} />
       <div className="pt-8">
         {/* Back to Blog */}
         <div className="container mx-auto px-4 py-6">
-          <Link to="/blog">
+          <Link to="/blog/">
             <Button variant="ghost" className="text-brand-primary hover:text-brand-primary/80">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Blog
@@ -316,7 +316,7 @@ export default function BlogPost() {
               <span className="font-medium text-brand-primary">Share this article:</span>
               <div className="flex gap-2">
                 <SocialShareButton platform="linkedin" url={currentUrl} title={post.title} />
-                <SocialShareButton platform="twitter" url={currentUrl} title={post.title} />
+                <SocialShareButton platform="twitter" url={currenturl} title={post.title} />
                 <SocialShareButton platform="facebook" url={currentUrl} title={post.title} />
               </div>
             </div>

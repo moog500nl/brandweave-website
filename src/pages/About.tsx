@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="About Brandweave - AI Brand Intelligence Founders & Story"
+        title="About Brandweave - Our Story & Founders"
         description="Meet the founders of Brandweave: Marenco Kemp (ex-Google, Microsoft) and Andy Bibby (ex-Razorfish, Microsoft) who created the future of AI brand analysis."
         keywords="about brandweave, founders, marenco kemp, andy bibby, AI brand intelligence, company story, leadership team"
         canonicalUrl="https://lovable.dev/about"

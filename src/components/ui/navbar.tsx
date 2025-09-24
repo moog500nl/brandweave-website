@@ -5,9 +5,9 @@ import { cn } from '@/lib/utils';
 
 const navigation = [
   { name: 'Homepage', href: '/' },
-  { name: 'About Us', href: '/about' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Contact Us', href: '/contact' },
+  { name: 'About Us', href: '/about/' },
+  { name: 'Blog', href: '/blog/' },
+  { name: 'Contact Us', href: '/contact/' },
 ];
 
 export function Navbar() {

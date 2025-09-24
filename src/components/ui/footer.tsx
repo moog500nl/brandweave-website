@@ -1,69 +1,53 @@
 import { Link } from "react-router-dom";
-import { ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const footerNavs = [
+  {
+    label: "Brandweave",
+    items: [
+      { href: "/", name: "Homepage" },
+      { href: "/about/", name: "About us" },
+      { href: "/blog/", name: "Blog" },
+      { href: "/contact/", name: "Contact us" },
+    ],
+  },
+  {
+    label: "Legal",
+    items: [
+      { href: "/terms/", name: "Terms" },
+      { href: "/privacy/", name: "Privacy" },
+    ],
+  },
+];
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
-
-  const externalLinks = [];
-
-  const internalLinks = [
-    { name: "Homepage", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact Us", href: "/contact" }
-  ];
-
   return (
-    <footer className="bg-muted/30 border-t border-border mt-20">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Brand */}
-          <div>
-            <Link to="/" className="flex items-center mb-4">
-              <img
-                src="/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
-                alt="Brandweave Logo"
-                className="h-12 w-auto"
-              />
-            </Link>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Independent AI brand intelligence helping CMOs understand how generative AI perceives and recommends their brands.
-            </p>
-          </div>
-
-          {/* Internal Navigation */}
-          <div className="md:justify-self-end">
-            <h3 className="font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2">
-              {internalLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    to={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} Brandweave. All rights reserved.
+    <footer className="bg-background border-t border-border">
+      <div className="container mx-auto px-4 py-16">
+        <div className="max-w-lg sm:mx-auto sm:text-center">
+          <img 
+            src="/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png" 
+            alt="Brandweave Logo" 
+            className="w-32 sm:mx-auto" 
+            loading="lazy"
+          />
+          <p className="leading-relaxed mt-4 text-sm text-muted-foreground sm:text-center">
+            Brandweave is an independent advisory helping CMOs understand and shape how AI perceives, compares and recommends their brands.
           </p>
-          <div className="flex items-center gap-4 mt-4 sm:mt-0">
-            <a
-              href="https://brandweave.substack.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
-            >
-              Newsletter
-              <ExternalLink className="w-3 h-3" />
-            </a>
-          </div>
+        </div>
+        <ul className="flex justify-center items-center flex-wrap gap-x-8 gap-y-4 mt-12 text-sm font-medium">
+          {footerNavs.map((nav) =>
+            nav.items.map((item) => (
+              <li key={item.name} className="text-muted-foreground hover:text-foreground">
+                <Link to={item.href}>{item.name}</Link>
+              </li>
+            ))
+          )}
+        </ul>
+        <div className="mt-12 flex justify-center">
+          <p className="text-xs text-muted-foreground">
+            &copy; {new Date().getFullYear()} Brandweave. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

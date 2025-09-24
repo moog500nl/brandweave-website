@@ -84,7 +84,7 @@ function Hero() {
           </div>
           <div className="flex flex-row gap-3 mt-8">
             <Button size="lg" className="gap-4" asChild>
-              <Link to="/contact">
+              <Link to="/contact/">
                 Request a Diagnostic <MoveRight className="w-4 h-4" />
               </Link>
             </Button>
@@ -138,9 +138,9 @@ function Hero() {
           </div>
           
           <div className="mt-20 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
+            <h1 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Independent insight for AI brand recommendation
-            </h2>
+            </h1>
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground text-center mb-16">
               Brandweave gives CMOs an evidence led view of how AI systems perceive, compare, and recommend brands. We reveal blind spots, show where competitors are winning preference, and unpack the reasoning behind AI decisions, then translate findings into board level priorities.
             </p>
@@ -169,7 +169,7 @@ function Hero() {
               
               <Badge variant="outline" className="h-auto p-6 flex items-start gap-4 text-left">
                 <TrendingUp className="w-6 h-6 mt-1 flex-shrink-0" style={{ color: '#fca311' }} />
-                <div className="text-sm">
+                <div className="text-sm font-bold">
                   Actionable strategy with board ready recommendations
                 </div>
               </Badge>
@@ -177,13 +177,13 @@ function Hero() {
           </div>
 
           <section className="mt-20 max-w-7xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-semibold text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Choose a focused module or run the full program.
-            </h3>
+            </h2>
             <FeaturesSectionWithHoverEffects />
             <div className="flex justify-center mt-12">
               <Button size="lg" className="gap-4" asChild>
-                <Link to="/contact">
+                <Link to="/contact/">
                   Request a Diagnostic <MoveRight className="w-4 h-4" />
                 </Link>
               </Button>
@@ -191,9 +191,9 @@ function Hero() {
           </section>
 
           <section className="mt-20 max-w-4xl mx-auto text-center px-4">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8">
               Future-proof your Marketing. Sign up to our free weekly newsletter, The Brand New Model.
-            </h3>
+            </h2>
             <p className="text-base md:text-lg lg:text-xl leading-relaxed tracking-tight text-muted-foreground mb-8 md:mb-12">
               We decode how AI is changing consumer choice and use that same technology to find you the single best product in a new category every week.
             </p>
