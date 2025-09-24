@@ -316,7 +316,7 @@ export default function BlogPost() {
               <span className="font-medium text-brand-primary">Share this article:</span>
               <div className="flex gap-2">
                 <SocialShareButton platform="linkedin" url={currentUrl} title={post.title} />
-                <SocialShareButton platform="twitter" url={currenturl} title={post.title} />
+                <SocialShareButton platform="twitter" url={currentUrl} title={post.title} />
                 <SocialShareButton platform="facebook" url={currentUrl} title={post.title} />
               </div>
             </div>
