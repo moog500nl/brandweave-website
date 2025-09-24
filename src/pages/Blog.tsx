@@ -12,6 +12,15 @@ import { Footer } from '@/components/ui/footer';
 
 const blogPosts = [
   {
+    id: 2,
+    title: "When the browser becomes the buyer",
+    excerpt: "Exploring how browsers are evolving from simple web navigation tools to intelligent shopping assistants that understand user preferences and make purchasing decisions.",
+    category: "AI",
+    date: "2025-09-24",
+    image: "/lovable-uploads/chrome logo.png.png",
+    slug: "browser-becomes-buyer"
+  },
+  {
     id: 1,
     title: "When the algorithm goes shopping for you",
     excerpt: "Amazon's latest foray into agentic artificial intelligence is turning the act of shopping into an act of delegation. A cluster of releases points to a future where consumers set objectives, then watch software do the legwork.",
