@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { SEOHead } from '@/components/ui/seo-head';
 import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
+import { formatDate } from '@/lib/utils';
 
 const blogPosts = {
   "browser-becomes-buyer": {
@@ -110,7 +111,7 @@ const blogPosts = {
       
       <p><strong>1. Become agent‑ready.</strong> Map your product and policy data to machine‑readable formats, keep availability and pricing fresh, and publish clear, structured returns and warranty terms that agents can parse. Chrome's store summaries already reward this.</p>
       
-      <p><strong>2. Adopt the payments stack.</strong> Track AP2 and adjacent standards, then pilot agent‑authorised purchases with auditing and dispute workflows. Early competence will translate into higher selection odds when delegation spreads.</p>
+      <p><strong>2. Adopt the payments stack.</strong> Track AP2 and adjacent. Early competence will translate into higher selection odds when delegation spreads.</p>
       
       <p><strong>3. Treat loyalty as a data product.</strong> Expose tiers and perks to agents, not just people, so they can weigh benefits properly. Watch Google's Merchant API roadmap, since it is becoming the canonical pipe into Google surfaces.</p>
       
@@ -124,8 +125,8 @@ const blogPosts = {
   "amazons-agent-bet": {
     title: "When the algorithm goes shopping for you",
     category: "AI",
-    date: "2025-09-10",
-    lastModified: "2025-09-10",
+    date: "2025-09-18",
+    lastModified: "2025-09-18",
     readTime: "8 min read",
     image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
     content: `
@@ -386,12 +387,12 @@ export default function BlogPost() {
               </Badge>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Calendar className="w-3 h-3 mr-1" />
-                Published: {new Date(post.date).toLocaleDateString()}
+                Published: {formatDate(post.date)}
               </div>
               {post.lastModified && post.lastModified !== post.date && (
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Calendar className="w-3 h-3 mr-1" />
-                  Updated: {new Date(post.lastModified).toLocaleDateString()}
+                  Updated: {formatDate(post.lastModified)}
                 </div>
               )}
               {post.readTime && (

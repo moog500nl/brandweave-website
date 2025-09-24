@@ -9,6 +9,7 @@ import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { SEOHead } from '@/components/ui/seo-head';
 import { BreadcrumbNav } from '@/components/ui/breadcrumb-nav';
 import { Footer } from '@/components/ui/footer';
+import { formatDate } from '@/lib/utils';
 
 const blogPosts = [
   {
@@ -17,7 +18,7 @@ const blogPosts = [
     excerpt: "Exploring how browsers are evolving from simple web navigation tools to intelligent shopping assistants that understand user preferences and make purchasing decisions.",
     category: "AI",
     date: "2025-09-24",
-    image: "/lovable-uploads/chrome logo.png.png",
+    image: "/lovable-uploads/chrome-becomes-the-buyer.png",
     slug: "browser-becomes-buyer"
   },
   {
@@ -25,7 +26,7 @@ const blogPosts = [
     title: "When the algorithm goes shopping for you",
     excerpt: "Amazon's latest foray into agentic artificial intelligence is turning the act of shopping into an act of delegation. A cluster of releases points to a future where consumers set objectives, then watch software do the legwork.",
     category: "AI",
-    date: "2024-01-15",
+    date: "2025-09-18",
     image: "/lovable-uploads/ac0aa3ee-4704-4074-9116-1be75a942703.png",
     slug: "amazons-agent-bet"
   }
@@ -133,7 +134,7 @@ export default function Blog() {
                     </Badge>
                     <div className="flex items-center text-sm text-muted-foreground">
                       <Calendar className="w-3 h-3 mr-1" />
-                      {new Date(post.date).toLocaleDateString()}
+                      {formatDate(post.date)}
                     </div>
                   </div>
                   <h2 className="text-xl font-bold text-brand-primary mb-3 line-clamp-2 group-hover:text-brand-primary/80 transition-colors">
