@@ -124,7 +124,7 @@ const SocialShareButton = ({ platform, url, title }: { platform: string; url: st
 };
 
 export default function BlogPost() {
-  const { slug }.
+  const { slug } = useParams<{ slug: string }>();
   const post = slug ? blogPosts[slug as keyof typeof blogPosts] : null;
 
   if (!post) {
