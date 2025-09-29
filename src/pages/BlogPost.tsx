@@ -15,7 +15,7 @@ const blogPosts = {
     date: "2025-09-24",
     lastModified: "2025-09-24", 
     readTime: "12 min read",
-    image: "/lovable-uploads/chrome logo.png.png",
+    image: "/lovable-uploads/chrome-becomes-the-buyer.png",
     content: `
       <p>Google's latest Chrome announcements are not mere product tweaks, they look like the starting gun for agentic shopping at scale. By fusing Gemini into the browser, adding AI Mode to the omnibox, and sketching standards for agent‑led payments, Google is turning Chrome from a window on the web into a busy valet that reads, reasons and increasingly acts. If this sticks, consumer behaviour will tilt from browsing to delegating, and the way brands are perceived and picked will be reshaped accordingly.</p>
       
@@ -264,11 +264,20 @@ export default function BlogPost() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="When the Algorithm Goes Shopping for You | Brandweave"
-        description="Amazon's agentic AI is transforming e-commerce. From Lens Live visual search to Buy for Me purchasing agents, discover how AI agents are reshaping consumer behavior and brand strategies in 2025."
-        keywords="Amazon AI agents, agentic AI, Buy for Me, Lens Live, Rufus AI, Nova Act, AI commerce, machine learning shopping, automated purchasing, consumer behavior AI, brand optimization AI, retail automation, generative AI shopping"
-        ogTitle="When the Algorithm Goes Shopping for You - Amazon's AI Revolution"
-        ogDescription="How Amazon's AI agents like Rufus, Buy for Me, and Nova Act are transforming shopping into delegation. Essential insights for brands adapting to algorithm-driven commerce."
+        title={`${post.title} | Brandweave`}
+        description={post.title === "When the browser becomes the buyer" 
+          ? "Google's Chrome AI integration with Gemini is turning browsers into shopping agents. Discover how agentic capabilities will reshape consumer behavior and brand selection in 2025."
+          : "Amazon's agentic AI is transforming e-commerce. From Lens Live visual search to Buy for Me purchasing agents, discover how AI agents are reshaping consumer behavior and brand strategies in 2025."
+        }
+        keywords={post.title === "When the browser becomes the buyer"
+          ? "Chrome AI, Google Gemini, browser shopping agents, agentic capabilities, AI Mode, Agent Payments Protocol, Chrome store reviews, consumer behavior AI, brand selection AI, automated shopping, generative engine optimization"
+          : "Amazon AI agents, agentic AI, Buy for Me, Lens Live, Rufus AI, Nova Act, AI commerce, machine learning shopping, automated purchasing, consumer behavior AI, brand optimization AI, retail automation, generative AI shopping"
+        }
+        ogTitle={`${post.title} - ${post.category} Insights`}
+        ogDescription={post.title === "When the browser becomes the buyer"
+          ? "How Chrome's AI integration is transforming browsers into intelligent shopping assistants. Essential insights for brands adapting to agent-driven commerce."
+          : "How Amazon's AI agents like Rufus, Buy for Me, and Nova Act are transforming shopping into delegation. Essential insights for brands adapting to algorithm-driven commerce."
+        }
         ogImage={`https://lovable.dev${post.image}`}
         ogType="article"
         canonicalUrl={`https://brandweave.ai/blog/${slug}`}
@@ -276,13 +285,17 @@ export default function BlogPost() {
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": post.title,
-          "alternativeHeadline": "Amazon's Agentic AI Revolution in E-commerce",
+          "description": post.title === "When the browser becomes the buyer" 
+            ? "Google's Chrome AI integration with Gemini is turning browsers into shopping agents"
+            : "Amazon's agentic AI is transforming e-commerce through visual search, purchasing agents, and machine learning",
           "image": {
             "@type": "ImageObject",
             "url": `https://lovable.dev${post.image}`,
             "width": 1200,
             "height": 630,
-            "caption": "Amazon's AI shopping agents transforming e-commerce"
+            "caption": post.title === "When the browser becomes the buyer"
+              ? "Chrome browser with AI capabilities transforming shopping behavior"
+              : "Amazon's AI shopping agents transforming e-commerce"
           },
           "author": {
             "@type": "Organization",
@@ -302,48 +315,16 @@ export default function BlogPost() {
           },
           "datePublished": post.date,
           "dateModified": post.lastModified || post.date,
-          "articleSection": "AI Technology",
-          "articleBody": "Amazon's agentic AI transforms shopping through Lens Live, Buy for Me agents, and Nova Act browser automation, reshaping brand discovery and consumer behavior.",
-          "wordCount": 2500,
-          "timeRequired": "PT8M",
-          "about": [
-            {
-              "@type": "Thing",
-              "name": "Artificial Intelligence",
-              "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-            },
-            {
-              "@type": "Thing", 
-              "name": "E-commerce",
-              "sameAs": "https://en.wikipedia.org/wiki/E-commerce"
-            },
-            {
-              "@type": "Organization",
-              "name": "Amazon",
-              "sameAs": "https://en.wikipedia.org/wiki/Amazon_(company)"
-            }
-          ],
-          "mentions": [
-            {
-              "@type": "SoftwareApplication",
-              "name": "Amazon Rufus",
-              "applicationCategory": "AI Shopping Assistant"
-            },
-            {
-              "@type": "SoftwareApplication", 
-              "name": "Buy for Me",
-              "applicationCategory": "AI Purchasing Agent"
-            },
-            {
-              "@type": "SoftwareApplication",
-              "name": "Lens Live", 
-              "applicationCategory": "Visual Search"
-            }
-          ],
           "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": `https://brandweave.ai/blog/${slug}`
           },
+          "keywords": post.title === "When the browser becomes the buyer"
+            ? ["Chrome AI", "Google Gemini", "browser shopping agents", "agentic capabilities", "AI Mode", "Agent Payments Protocol", "Chrome store reviews", "consumer behavior AI", "brand selection AI", "automated shopping", "generative engine optimization"]
+            : ["Amazon AI", "agentic AI", "Buy for Me", "Lens Live", "Rufus AI", "Nova Act", "AI commerce", "machine learning shopping", "automated purchasing", "consumer behavior AI", "brand optimization AI", "retail automation", "generative AI shopping"],
+          "articleSection": post.category,
+          "wordCount": post.title === "When the browser becomes the buyer" ? 3200 : 2800,
+          "timeRequired": post.readTime,
           "isPartOf": {
             "@type": "Blog",
             "name": "Brandweave Blog",
