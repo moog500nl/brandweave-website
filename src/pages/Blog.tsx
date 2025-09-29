@@ -51,14 +51,14 @@ export default function Blog() {
         title="Brandweave Blog - AI & Consumer Behavior Insights"
         description="Expert insights on how AI is changing consumer behavior, brand perception, and the future of AI-powered commerce. Latest articles on generative engine optimization."
         keywords="AI blog, consumer behavior, brand perception, generative AI, AI commerce, marketing insights, GEO, AEO"
-        canonicalUrl="https://brandweave.ai/blog"
+        canonicalUrl="https://www.brandweave.ai/blog"
         ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Blog",
           "name": "Brandweave Blog",
           "description": "Insights into how AI is changing consumer behaviour",
-          "url": "https://brandweave.ai/blog",
+          "url": "https://www.brandweave.ai/blog",
           "publisher": {
             "@type": "Organization",
             "name": "Brandweave"

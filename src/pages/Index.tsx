@@ -11,14 +11,14 @@ const Index = () => {
         title="Brandweave - AI Brand Intelligence for CMOs"
         description="Discover how generative AI portrays your brand. Get insights into AI model recommendations and optimize your brand presence for the future of AI-powered commerce."
         keywords="AI brand intelligence, generative engine optimization, GEO, AEO, brand analysis, AI recommendations, brand visibility, generative AI"
-        canonicalUrl="https://brandweave.ai/"
+        canonicalUrl="https://www.brandweave.ai/"
         ogImage="https://lovable.dev/lovable-uploads/28e9b654-0e33-40ae-a0d7-c285832b7bec.png"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Brandweave",
           "description": "AI Brand Intelligence & Generative Engine Optimization platform",
-          "url": "https://brandweave.ai",
+          "url": "https://www.brandweave.ai",
           "logo": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png",
           "founders": [
             {

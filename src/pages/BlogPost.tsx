@@ -280,7 +280,7 @@ export default function BlogPost() {
         }
         ogImage={`https://lovable.dev${post.image}`}
         ogType="article"
-        canonicalUrl={`https://brandweave.ai/blog/${slug}`}
+        canonicalUrl={`https://www.brandweave.ai/blog/${slug}`}
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Article",
@@ -300,12 +300,12 @@ export default function BlogPost() {
           "author": {
             "@type": "Organization",
             "name": "Brandweave",
-            "url": "https://brandweave.ai"
+            "url": "https://www.brandweave.ai"
           },
           "publisher": {
             "@type": "Organization",
             "name": "Brandweave",
-            "url": "https://brandweave.ai",
+            "url": "https://www.brandweave.ai",
             "logo": {
               "@type": "ImageObject",
               "url": "https://lovable.dev/lovable-uploads/bdcaf875-19cf-4b58-8463-5bb642d174b3.png",
@@ -317,7 +317,7 @@ export default function BlogPost() {
           "dateModified": post.lastModified || post.date,
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://brandweave.ai/blog/${slug}`
+            "@id": `https://www.brandweave.ai/blog/${slug}`
           },
           "keywords": post.title === "When the browser becomes the buyer"
             ? ["Chrome AI", "Google Gemini", "browser shopping agents", "agentic capabilities", "AI Mode", "Agent Payments Protocol", "Chrome store reviews", "consumer behavior AI", "brand selection AI", "automated shopping", "generative engine optimization"]
@@ -328,7 +328,7 @@ export default function BlogPost() {
           "isPartOf": {
             "@type": "Blog",
             "name": "Brandweave Blog",
-            "url": "https://brandweave.ai/blog"
+            "url": "https://www.brandweave.ai/blog"
           }
         }}
       />

@@ -14,7 +14,7 @@ const NotFound = () => {
       <SEOHead
         title="404 - Page Not Found"
         description="The page you are looking for does not exist."
-        canonicalUrl="https://brandweave.ai/"
+        canonicalUrl="https://www.brandweave.ai/"
       />
       <div className="flex min-h-screen items-center justify-center bg-gray-100">
         <div className="text-center">
