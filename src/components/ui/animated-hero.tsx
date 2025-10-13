@@ -138,9 +138,9 @@ function Hero() {
           </div>
           
           <div className="mt-20 max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-semibold text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8">
               Independent insight for AI brand recommendation
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground text-center mb-16">
               Brandweave gives CMOs an evidence led view of how AI systems perceive, compare, and recommend brands. We reveal blind spots, show where competitors are winning preference, and unpack the reasoning behind AI decisions, then translate findings into board level priorities.
             </p>
@@ -200,6 +200,7 @@ function Hero() {
             <div className="flex justify-center w-full">
               <iframe 
                 src="https://brandweave.substack.com/embed" 
+                title="Subscribe to The Brand New Model newsletter"
                 className="w-full max-w-md md:max-w-lg rounded-lg border border-border bg-background"
                 style={{height: '150px'}}
                 frameBorder="0" 

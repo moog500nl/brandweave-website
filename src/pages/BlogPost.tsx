@@ -15,7 +15,7 @@ const blogPosts = {
     date: "2025-09-24",
     lastModified: "2025-09-24", 
     readTime: "12 min read",
-    image: "/lovable-uploads/chrome-becomes-the-buyer.png",
+    image: "/lovable-uploads/chrome logo.png.png",
     content: `
       <p>Google's latest Chrome announcements are not mere product tweaks, they look like the starting gun for agentic shopping at scale. By fusing Gemini into the browser, adding AI Mode to the omnibox, and sketching standards for agent‑led payments, Google is turning Chrome from a window on the web into a busy valet that reads, reasons and increasingly acts. If this sticks, consumer behaviour will tilt from browsing to delegating, and the way brands are perceived and picked will be reshaped accordingly.</p>
       

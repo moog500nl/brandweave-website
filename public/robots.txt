@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://lovable.dev/sitemap.xml
+Sitemap: https://brandweave.ai/sitemap.xml

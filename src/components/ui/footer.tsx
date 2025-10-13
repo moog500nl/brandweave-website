@@ -11,13 +11,6 @@ const footerNavs = [
       { href: "/contact/", name: "Contact us" },
     ],
   },
-  {
-    label: "Legal",
-    items: [
-      { href: "/terms/", name: "Terms" },
-      { href: "/privacy/", name: "Privacy" },
-    ],
-  },
 ];
 
 export function Footer() {
